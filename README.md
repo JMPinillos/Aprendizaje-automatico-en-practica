@@ -11,7 +11,7 @@ Este repositorio reúne una colección de proyectos desarrollados como parte de 
 - [Procesamiento del lenguaje natural (PLN)](Procesamiento_del_lenguaje_natural_(PLN)/)
 - [Visión artificial](Visión_artificial/)
 - [Razonamiento y Planificación automática](Razonamiento_y_Planificación_automática/)
-- [Visualización de datos con D3.js](06_visualizacion_datos/)
+- [Visualización de datos](Visualización_de_datos/)
 
  
 
