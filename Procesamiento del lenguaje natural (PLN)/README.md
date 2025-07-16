@@ -6,6 +6,20 @@ Cada notebook sigue una estructura completa, desde la exploración inicial y el 
 
 
 
+### 🧠 Clasificación de mensajes en inglés con *word embeddings* y *transformers*
+
+Este proyecto aborda la clasificación de mensajes escritos en inglés según su intensidad de odio, etiquetados en una escala del 1 al 5. Se comparan dos aproximaciones: un modelo neuronal tradicional entrenado desde cero y un modelo *transformer* preentrenado multilingüe.
+
+- En el primer enfoque, se construye un modelo secuencial con *word embeddings* y capas densas, utilizando técnicas como `TextVectorization`, `Embedding` y *pooling*. Se evalúa su rendimiento mediante métricas como la exactitud categórica y el error cuadrático medio.
+
+- En el segundo enfoque, se aplica *fine-tuning* sobre el modelo `bert-base-multilingual-cased` de Hugging Face. Se tokenizan los textos con `BertTokenizerFast`, se entrena con `Trainer`, y se evalúa utilizando múltiples métricas de clasificación.
+
+La actividad permite comparar el rendimiento entre modelos simples y modelos avanzados de *transformers*, mostrando una mejora significativa en la capacidad predictiva al utilizar modelos preentrenados.
+
+[🔗 `Word_embeddings_y_transformers_para_clasificación_de_texto.ipynb`](2-PLN_Clasificación_transformers/Word_embeddings_y_transformers_para_clasificación_de_texto.ipynb)
+
+
+
 ## Notebooks
 
 ### Reconocimiento de entidades nombradas (NER)
