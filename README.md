@@ -5,13 +5,13 @@ Este repositorio reúne una colección de proyectos desarrollados como parte de 
 
 ## Contenido
 
-- [Aprendizaje automático supervisado](Aprendizaje_automático_supervisado/)
-- [Aprendizaje automático no supervisado](Aprendizaje_automático_no_supervisado/)
-- [Redes neuronales y aprendizaje profundo](Redes_neuronales_y_aprendizaje_profundo/)
-- [Procesamiento del lenguaje natural (PLN)](Procesamiento_del_lenguaje_natural_(PLN)/)
-- [Visión artificial](Visión_artificial/)
-- [Razonamiento y Planificación automática](Razonamiento_y_Planificación_automática/)
-- [Visualización de datos](Visualización_de_datos/)
+- 📊 [Aprendizaje automático supervisado](Aprendizaje_automático_supervisado/)
+- 🔍 [Aprendizaje automático no supervisado](Aprendizaje_automático_no_supervisado/)
+- 🧠 [Redes neuronales y aprendizaje profundo](Redes_neuronales_y_aprendizaje_profundo/)
+- 🗣️ [Procesamiento del lenguaje natural (PLN)](Procesamiento_del_lenguaje_natural_(PLN)/)
+- 👁️ [Visión artificial](Visión_artificial/)
+- 🧭 [Razonamiento y planificación automática](Razonamiento_y_Planificación_automática/)
+- 📈 [Visualización de datos](Visualización_de_datos/) 
 
  
 
@@ -25,16 +25,7 @@ Este repositorio reúne una colección de proyectos desarrollados como parte de 
 
 Python, Scikit-learn, TensorFlow, Keras, Pandas, D3.js, Git, Jupyter...
 
- # Índice de actividades
 
-Este repositorio agrupa diversas prácticas desarrolladas en el área de la inteligencia artificial, organizadas por temática.
-
-- 📊 [Aprendizaje automático supervisado](aprendizaje_supervisado/)
-- 🌀 [Aprendizaje no supervisado](aprendizaje_no_supervisado/)
-- 🧠 [Redes neuronales](redes_neuronales/)
-- 🗣️ [Procesamiento del lenguaje natural (NLP)](nlp/)
-- 📈 [Visualización de datos](visualizacion_datos/)
-- 🧪 [Proyecto transversal](proyecto_transversal/)
 
 ## Autor
 

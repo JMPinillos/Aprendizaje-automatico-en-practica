@@ -27,3 +27,7 @@ Clasificación binaria de mensajes como “odio” o “no odio” utilizando ap
 
 
 Cada notebook está documentado y desarrollado paso a paso, siguiendo buenas prácticas en ciencia de datos y aplicando los conceptos teóricos adquiridos a problemas reales.
+
+
+
+<center>by <strong>Jose Manuel Pinillos</strong></center>
