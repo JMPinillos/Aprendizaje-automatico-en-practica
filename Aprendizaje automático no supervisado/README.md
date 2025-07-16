@@ -7,23 +7,23 @@ Los trabajos incluyen análisis exploratorio, selección de métricas, visualiza
 
 ## Notebooks
 
-### Exploración y comparación de algoritmos de clustering
+### Exploración y comparación de algoritmos de agrupamiento
 
-Este proyecto aborda la agrupación automática de datos sin etiquetas mediante múltiples algoritmos de clustering, aplicados al dataset de Mall Customers. Se comparan modelos como K-Means, DBSCAN y Agglomerative Clustering, evaluando su comportamiento en términos de inercia, silueta y estructura de agrupamiento.
+Este proyecto aborda la agrupación automática de datos sin etiquetas mediante múltiples algoritmos de clustering, aplicados al dataset de Mall Customers. Se comparan modelos como *K-Means*, DBSCAN y *Agglomerative Clustering*, evaluando su comportamiento en términos de inercia, silueta y estructura de agrupamiento.
 
 Se realiza un análisis exploratorio inicial, reducción de dimensionalidad con PCA y visualización de resultados. El estudio destaca por mostrar cómo diferentes técnicas pueden ofrecer segmentaciones dispares, y cómo elegir el método más adecuado según la distribución de los datos y el objetivo de negocio.
 
-🔗 Exploración_y_comparación_de_algoritmos_de_agrupamiento.ipynb
+🔗[`Exploración_y_comparación_de_algoritmos_de_agrupamiento.ipynb`](1-Exploración_y_comparación_de_algoritmos_de_agrupamiento.ipynb/Exploración_y_comparación_de_algoritmos_de_agrupamiento.ipynb)
 
 
 
 ### Análisis de reducción de dimensionalidad (PCA y t-SNE)
 
-Este trabajo se centra en técnicas de reducción de dimensionalidad aplicadas al Fashion MNIST Dataset, permitiendo representar datos de alta dimensión en espacios bidimensionales comprensibles.
+Este trabajo se centra en técnicas de reducción de dimensionalidad aplicadas al *dataset* <u>Fashion MNIST</u> , permitiendo representar datos de alta dimensión en espacios bidimensionales comprensibles.
 
-Se implementan y comparan dos enfoques: Principal Component Analysis (PCA) y t-distributed Stochastic Neighbor Embedding (t-SNE). El objetivo es evaluar su capacidad para preservar la estructura de los datos, reducir el ruido y facilitar el análisis visual posterior. Las visualizaciones obtenidas evidencian las fortalezas de cada método en distintos contextos.
+Se implementan y comparan dos enfoques: *Principal Component Analysis (PCA)* y *t-distributed Stochastic Neighbor Embedding (t-SNE)*. El objetivo es evaluar su capacidad para preservar la estructura de los datos, reducir el ruido y facilitar el análisis visual posterior. Las visualizaciones obtenidas evidencian las fortalezas de cada método en distintos contextos.
 
-🔗 Análisis_de_reducción_de_dimensionalidad_(PCA_y_t-SNE).ipynb
+🔗[`Análisis_de_reducción_de_dimensionalidad_(PCA_y_t-SNE).ipynb`](3-Análisis_de_reducción_de_dimensionalidad_(PCA_y_t-SNE)/Análisis_de_reducción_de_dimensionalidad_(PCA_y_t-SNE).ipynb)
 
 
 
