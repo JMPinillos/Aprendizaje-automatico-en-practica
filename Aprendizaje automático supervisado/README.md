@@ -3,23 +3,6 @@ En esta carpeta se recopilan diversas actividades desarrolladas en el ámbito de
 
 
 
-📘 Regresión lineal y árboles de decisión para predicción ambiental
-
-Este proyecto aborda la predicción de la calidad del aire a partir de sensores químicos integrados en estaciones urbanas. Se desarrolla un flujo completo de machine learning sobre un conjunto de datos real del UCI Air Quality Dataset, combinando técnicas de regresión lineal múltiple y árboles de decisión para modelar la relación entre contaminantes y condiciones ambientales.
-Incluye un análisis exploratorio exhaustivo, imputación de valores ausentes, codificación y normalización, seguido por la evaluación comparativa de modelos mediante métricas de error. El trabajo se completa con la revisión de literatura científica reciente, conectando la teoría con aplicaciones reales en entornos de predicción medioambiental.
-
-⸻
-
-🌲 Clasificación geoespacial con Random Forest y SVM
-
-
-
-⸻
-
-💬 Clasificación automática de mensajes de odio en español
-
-
-
 
 
 ## Notebooks
