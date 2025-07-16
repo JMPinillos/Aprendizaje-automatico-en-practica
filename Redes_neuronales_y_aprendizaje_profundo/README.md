@@ -1,4 +1,4 @@
-# Redes Neuronales y Aprendizaje Profundo
+# Redes neuronales y aprendizaje profundo
 
 En esta sección se reúnen prácticas avanzadas centradas en el diseño, entrenamiento y evaluación de redes neuronales, abarcando desde arquitecturas densas clásicas como **perceptrones multicapa** hasta modelos especializados como **redes convolucionales (CNN)** y **redes recurrentes (RNN)**. Estas actividades forman parte del itinerario del Máster en Inteligencia Artificial y reflejan un dominio progresivo de técnicas profundas aplicadas a diferentes tipos de datos y tareas.
 

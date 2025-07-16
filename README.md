@@ -9,15 +9,9 @@ Este repositorio reúne una colección de proyectos desarrollados como parte de 
 - 🔍 [Aprendizaje automático no supervisado](Aprendizaje_automático_no_supervisado/)
 - 🧠 [Redes neuronales y aprendizaje profundo](Redes_neuronales_y_aprendizaje_profundo/)
 - 🗣️ [Procesamiento del lenguaje natural (PLN)](Procesamiento_del_lenguaje_natural_(PLN)/)
-- 👁️ [Visión artificial](Visión_artificial/)
-- 🧭 [Razonamiento y planificación automática](Razonamiento_y_Planificación_automática/)
-- 📈 [Visualización de datos](Visualización_de_datos/) 
-
- 
-
-> [!NOTE]
->
-> Cada carpeta contiene los *notebooks*, *datasets* tratados, modelos entrenados y resultados obtenidos.
+- 👁️ <u>Visión artificial</u>
+- 🧭 <u>Razonamiento y planificación automática</u>
+- 📈 <u>Visualización de datos</u>
 
  
 
@@ -29,6 +23,6 @@ Python, Scikit-learn, TensorFlow, Keras, Pandas, D3.js, Git, Jupyter...
 
 ## Autor
 
-Jose Manuel Pinillos  
+<center>Jose Manuel Pinillos
 
 Ingeniero Informático con Mención en Ingeniería del Software | Máster en Inteligencia Artificial
