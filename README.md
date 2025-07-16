@@ -1,5 +1,12 @@
-# Aprendizaje-automatico-en-practica
-Este repositorio reúne una colección de proyectos desarrollados como parte de mi formación especializada en Inteligencia Artificial durante la realización del Master. Incluye implementaciones prácticas de aprendizaje automático, redes neuronales, PLN, visualización de datos y más, aplicadas a problemas reales y con un enfoque técnico sólido.
+<p align="center" style="font-family: 'Calibri'; font-size:50px; color:#0098CD">Aprendizaje automático en práctica</p>
+<p align="center" style="font-family: 'Calibri Light'; font-size:30px">Jose Manuel Pinillos</p>
+<p align="center" style="font-family: 'Calibri Light'; font-size:26px">Ingeniero Informático con Mención en Ingeniería del Software | Máster en Inteligencia Artificial</center></p>
+
+
+
+
+
+<center>Este repositorio reúne una colección de proyectos desarrollados como parte de mi formación especializada en Inteligencia Artificial durante la realización del Master. Incluye implementaciones prácticas de aprendizaje automático, redes neuronales, PLN, visualización de datos y más, aplicadas a problemas reales y con un enfoque técnico sólido.</center>
 
 
 
@@ -18,11 +25,3 @@ Este repositorio reúne una colección de proyectos desarrollados como parte de 
 ## Tecnologías utilizadas 
 
 Python, Scikit-learn, TensorFlow, Keras, Pandas, D3.js, Git, Jupyter...
-
-
-
-## Autor
-
-<center>Jose Manuel Pinillos
-
-Ingeniero Informático con Mención en Ingeniería del Software | Máster en Inteligencia Artificial
