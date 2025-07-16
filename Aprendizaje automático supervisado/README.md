@@ -14,7 +14,7 @@ Este proyecto aborda la predicción de la calidad del aire a partir de sensores 
 
 Incluye un análisis exploratorio exhaustivo, imputación de valores ausentes, codificación y normalización, seguido por la evaluación comparativa de modelos mediante métricas de error. El trabajo se completa con la revisión de literatura científica reciente, conectando la teoría con aplicaciones reales.
 
-[🔗 `Regresión_lineal_y_árboles_de_decisión_para_tareas_de_regresión.ipynb`](Regresión_lineal_y_árboles_de_decisión_para_tareas_de_regresión.ipynb)
+[🔗 `Regresión_lineal_y_árboles_de_decisión_para_tareas_de_regresión.ipynb`](1 - Regresión lineal y árboles de decisión para tareas de regresión/Regresión_lineal_y_árboles_de_decisión_para_tareas_de_regresión.ipynb)
 
 
 
