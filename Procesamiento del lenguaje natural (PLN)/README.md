@@ -1,43 +1,29 @@
-# Redes Neuronales y Aprendizaje Profundo
+# Procesamiento del Lenguaje Natural (PLN)
 
-En esta sección se reúnen prácticas avanzadas centradas en el diseño, entrenamiento y evaluación de redes neuronales, abarcando desde arquitecturas densas clásicas como **perceptrones multicapa** hasta modelos especializados como **redes convolucionales (CNN)** y **redes recurrentes (RNN)**. Estas actividades forman parte del itinerario del Máster en Inteligencia Artificial y reflejan un dominio progresivo de técnicas profundas aplicadas a diferentes tipos de datos y tareas.
+Esta sección del repositorio recoge prácticas centradas en el desarrollo de modelos de aprendizaje profundo aplicados al procesamiento del lenguaje natural. Los trabajos se enfocan en tareas clave como la clasificación de texto y el reconocimiento de entidades nombradas, empleando técnicas modernas como *word embeddings*, *LSTM*, y modelos basados en *transformers*.
 
-Cada *notebook* implementa un caso práctico completo, desde la preparación y transformación de datos hasta la definición del modelo, su entrenamiento con distintas estrategias y el análisis crítico de los resultados. Se presta especial atención a la arquitectura de las redes, el impacto de los hiperparámetros, el uso de técnicas de regularización, y la adecuación de cada tipo de red al problema planteado.
+Cada notebook implementa un flujo completo que incluye la vectorización del texto, el diseño de arquitecturas específicas, el entrenamiento supervisado y la evaluación del rendimiento con métricas adaptadas a la naturaleza lingüística del problema. Estas actividades reflejan el dominio de las técnicas más actuales de PLN y su aplicabilidad a contextos reales en español.
 
-Esta colección de trabajos demuestra la capacidad para aplicar técnicas de *Deep Learning* de forma eficaz, tanto en entornos visuales como en procesamiento secuencial de datos, con un enfoque analítico y orientado a resultados reales.
-
-
+---
 
 ## Notebooks
 
-### Clasificación de dígitos con perceptrones multicapa
+### 🧾 Reconocimiento de entidades nombradas (NER)
 
-Este trabajo explora el uso de redes neuronales densas (*fully connected*) para la clasificación del conjunto de imágenes manuscritas *MNIST*. Se define una arquitectura tipo *Multilayer Perceptron (MLP)*, evaluando el impacto del número de neuronas, funciones de activación, épocas y algoritmos de optimización.
+Este trabajo aborda la tarea de *Named Entity Recognition* sobre un corpus anotado en español. A través de técnicas de tokenización y codificación *BIO*, se implementa un modelo secuencial con *LSTM* bidireccional y *embedding* de palabras para identificar entidades como nombres, lugares u organizaciones.  
+El estudio incluye el análisis del comportamiento del modelo con diferentes funciones de activación, tamaños de ventana y parámetros de regularización, así como la evaluación detallada con métricas por clase y matriz de confusión. Se demuestra la viabilidad del enfoque en contextos de procesamiento de información estructurada y extracción automática de conocimiento.
 
-El estudio incluye una comparación de optimizadores como *SGD*, *Adam*, *RMSprop* o *Adagrad*, así como técnicas de regularización (*Dropout*, *L2*) y el uso de *EarlyStopping*. Se automatiza el entrenamiento y evaluación mediante funciones personalizadas y se recopilan métricas clave en un *DataFrame* para su análisis comparativo.
+[🔗 `Named_Entity_Recognition.ipynb`](1-Named_Entity_Recognition/Named_Entity_Recognition.ipynb)
 
-🔗[`Clasificación_de_dígitos_utilizando_perceptrones_multicapa.ipynb`](1-Clasificación_de_dígitos_utilizando_perceptrones_multicapa/Clasificación_de_dígitos_utilizando_perceptrones_multicapa.ipynb)
+---
 
+### 🧠 Clasificación de texto con *word embeddings* y *transformers*
 
+Este proyecto analiza la clasificación de mensajes en español utilizando diferentes representaciones vectoriales del lenguaje. Se comparan dos enfoques principales: redes neuronales recurrentes con *word embeddings* entrenados desde cero, y el uso de *transformers* multilingües preentrenados mediante la arquitectura *BERT*.  
+La actividad incluye el análisis de métricas de evaluación, visualización de *attention maps*, impacto del *fine-tuning* y adaptación del tokenizador. Se realiza un análisis comparativo entre las dos metodologías, evidenciando la superioridad de los modelos *transformer* en tareas de clasificación semántica compleja.
 
-### Clasificación visual con redes convolucionales (CNN)
+[🔗 `Word_embeddings_y_transformers_para_clasificación_de_texto.ipynb`](2-PLN_Clasificación_transformers/Word_embeddings_y_transformers_para_clasificación_de_texto.ipynb)
 
-En este notebook se implementa un modelo basado en redes convolucionales profundas para abordar la clasificación de imágenes del conjunto *MNIST*. Se definen múltiples bloques de capas *Conv2D*, *MaxPooling* y *Dropout*, adaptando la arquitectura a la complejidad de los datos visuales.
-
-El trabajo incluye la comparación de distintos tamaños de filtros, funciones de activación y configuraciones de *pooling*, así como una optimización progresiva del rendimiento mediante ajuste de hiperparámetros. Se analiza el efecto de la regularización y se interpretan los resultados a partir de las curvas de aprendizaje y las métricas de evaluación obtenidas.
-
-🔗[`Redes_neuronales_convolucionales.ipynb`](2-Redes_Neuronales_Convolucionales/Redes_neuronales_convolucionales.ipynb)
-
-
-
-### Predicción secuencial con redes neuronales recurrentes (RNN)
-
-Este proyecto aborda la predicción de la intensidad de odio en mensajes escritos en español mediante redes neuronales recurrentes, utilizando una versión simplificada y preprocesada del *dataset* original del proyecto transversal.
-
-Se construye una arquitectura basada en una capa de *embedding* seguida de una *Bidirectional LSTM*. El trabajo incluye técnicas de ponderación de clases para mitigar el desbalanceo, y se evalúan distintas configuraciones de regularización, función de pérdida y optimizadores.
-
-🔗[`Redes_Neuronales_Recurrentes.ipynb`](3-Redes_Neuronales_Recurrentes/Redes_Neuronales_Recurrentes.ipynb)
-
-
+---
 
 <center>by <strong>Jose Manuel Pinillos</strong></center>
