@@ -21,7 +21,7 @@ Incluye un análisis exploratorio exhaustivo, imputación de valores ausentes, c
 ### Clasificación geospacial con *Random Forest* y SVM
 Este estudio técnico aplica algoritmos de clasificación avanzada al *dataset <u>Covertype</u>*, con el objetivo de predecir el tipo de cobertura forestal utilizando variables cartográficas obtenidas de sistemas GIS. Se implementan y comparan modelos de *Random Forest* y *Support Vector Machines*, incorporando técnicas de preprocesamiento, escalado, validación cruzada y análisis de correlaciones.
 
-El proyecto destaca por su enfoque aplicado a datos geoespaciales binarios y por el análisis crítico del rendimiento de los modelos en escenarios de clasificación multicategoría. Se complementa con la revisión de un artículo científico que profundiza en el uso de estas técnicas en problemas reales.
+El proyecto destaca por su enfoque aplicado a datos geoespaciales binarios y por el análisis crítico del rendimiento de los modelos en escenarios de clasificación multiclase. Se complementa con la revisión de un artículo científico que profundiza en el uso de estas técnicas en problemas reales.
 
 🔗[`Clasificación_con_máquinas_de_vectores_de_soporte_y_random_forest.ipynb`](2-Clasificación_geospacial_con_Random_Forest_y_SVM/Clasificación_con_máquinas_de_vectores_de_soporte_y_random_forest.ipynb)
 
