@@ -1,4 +1,4 @@
-# Aprendizaje-automatico-en-practica
+# Aprendizaje automático en práctica
 Este repositorio reúne una colección de proyectos desarrollados como parte de mi formación especializada en Inteligencia Artificial durante la realización del Master. Incluye implementaciones prácticas de aprendizaje automático, redes neuronales, PLN, visualización de datos y más, aplicadas a problemas reales y con un enfoque técnico sólido.
 
 
