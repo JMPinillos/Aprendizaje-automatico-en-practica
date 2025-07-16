@@ -5,21 +5,21 @@ En esta carpeta se recopilan diversas actividades desarrolladas en el ámbito de
 
 ## Notebooks
 
-### 1. Regresión lineal y árboles de decisión aplicados a calidad del aire
+### Regresión lineal y árboles de decisión para predicción ambiental
 Predicción de la calidad del aire utilizando regresión lineal múltiple y árboles de decisión. Incluye un análisis exploratorio completo del dataset, entrenamiento de modelos, comparación de resultados y revisión de un artículo científico relevante posterior a 2015.
 
 [🔗 `Regresión_lineal_y_árboles_de_decisión_para_tareas_de_regresión.ipynb`](Regresión_lineal_y_árboles_de_decisión_para_tareas_de_regresión.ipynb)
 
 
 
-### 2. Clasificación con máquinas de vectores de soporte y random forest
+### Clasificación geospacial con *Random Forest* y SVM
 Clasificación del tipo de cubierta forestal a partir de variables cartográficas. Se comparan modelos basados en *Random Forest* y SVM, se analiza la preparación de los datos y se incorpora un artículo científico relacionado con los algoritmos utilizados.
 
 [🔗 `Clasificación_con_máquinas_de_vectores_de_soporte_y_random_forest.ipynb`](Clasificación_con_máquinas_de_vectores_de_soporte_y_random_forest.ipynb)
 
 
 
-### 3. Clasificación de mensajes de odio
+### Clasificación automática de mensajes de odio en español
 Clasificación binaria de mensajes como “odio” o “no odio” utilizando aprendizaje supervisado. Incluye limpieza intensiva del texto, extracción de características, comparación entre tres modelos y evaluación mediante métricas como precisión, *recall* y F1-score.
 
 [🔗`Clasificación_de_mensajes_de_odio.ipynb`](Clasificación_de_mensajes_de_odio.ipynb)
