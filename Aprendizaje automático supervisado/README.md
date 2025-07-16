@@ -13,7 +13,7 @@ Predicción de la calidad del aire utilizando regresión lineal múltiple y árb
 
 
 ### 2. Clasificación con máquinas de vectores de soporte y random forest
-Clasificación del tipo de cubierta forestal a partir de variables cartográficas. Se comparan modelos basados en Random Forest y SVM, se analiza la preparación de los datos y se incorpora un artículo científico relacionado con los algoritmos utilizados.
+Clasificación del tipo de cubierta forestal a partir de variables cartográficas. Se comparan modelos basados en *Random Forest* y SVM, se analiza la preparación de los datos y se incorpora un artículo científico relacionado con los algoritmos utilizados.
 
 [🔗 `Clasificación_con_máquinas_de_vectores_de_soporte_y_random_forest.ipynb`](Clasificación_con_máquinas_de_vectores_de_soporte_y_random_forest.ipynb)
 
