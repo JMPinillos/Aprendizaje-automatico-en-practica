@@ -127,7 +127,7 @@ La primera asignatura es Aprendizaje Automático Supervisado. Las actividades so
    - Carga y revisión de los datos del dataset.
    - Determinar si tenemos un dataset balanceado con respecto a la varibale objetivo.
    - Revisar datos textuales (longitud promedio de los comentarios, frecuencia de palabras, etc..)
-   - Análisis de las correlaciones.
+   - Análisis de las correlaciones
 
 
 
