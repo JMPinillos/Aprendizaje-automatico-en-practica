@@ -32,7 +32,7 @@ Este proyecto simula un caso real de despliegue de un modelo de clasificación b
 
 Se entrenan y evalúan tres modelos supervisados, optimizados para detectar discurso de odio, y se aplican métricas de evaluación ajustadas a escenarios de desbalanceo. El resultado es un modelo validado, interpretado y justificado que podría integrarse en un sistema de moderación automática.
 
-[🔗`Clasificación_de_mensajes_de_odio.ipynb`](3-Clasificación_automática_de_mensajes_de_odio_en_españolClasificación_de_mensajes_de_odio.ipynb)
+[🔗`Clasificación_de_mensajes_de_odio.ipynb`](3-Clasificación_automática_de_mensajes_de_odio_en_español/Clasificación_de_mensajes_de_odio.ipynb)
 
 
 
