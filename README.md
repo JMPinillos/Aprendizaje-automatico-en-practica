@@ -5,7 +5,7 @@ Este repositorio reúne una colección de proyectos desarrollados como parte de 
 
 ## Contenido
 
-- 📊 [Aprendizaje automático supervisado](Aprendizaje_automático_supervisado/)
+- 📊 [Aprendizaje automático supervisado](Aprendizaje_automático_supervisado/README.md)
 - 🔍 [Aprendizaje automático no supervisado](Aprendizaje_automático_no_supervisado/)
 - 🧠 [Redes neuronales y aprendizaje profundo](Redes_neuronales_y_aprendizaje_profundo/)
 - 🗣️ [Procesamiento del lenguaje natural (PLN)](Procesamiento_del_lenguaje_natural_(PLN)/)
