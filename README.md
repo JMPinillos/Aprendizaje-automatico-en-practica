@@ -25,7 +25,16 @@ Este repositorio reúne una colección de proyectos desarrollados como parte de 
 
 Python, Scikit-learn, TensorFlow, Keras, Pandas, D3.js, Git, Jupyter...
 
- 
+ # Índice de actividades
+
+Este repositorio agrupa diversas prácticas desarrolladas en el área de la inteligencia artificial, organizadas por temática.
+
+- 📊 [Aprendizaje automático supervisado](aprendizaje_supervisado/)
+- 🌀 [Aprendizaje no supervisado](aprendizaje_no_supervisado/)
+- 🧠 [Redes neuronales](redes_neuronales/)
+- 🗣️ [Procesamiento del lenguaje natural (NLP)](nlp/)
+- 📈 [Visualización de datos](visualizacion_datos/)
+- 🧪 [Proyecto transversal](proyecto_transversal/)
 
 ## Autor
 
