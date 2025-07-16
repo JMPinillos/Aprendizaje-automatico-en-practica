@@ -1,34 +1,29 @@
-# Aprendizaje-automatico-en-practica
-Este repositorio reúne una colección de proyectos desarrollados como parte de mi formación especializada en Inteligencia Artificial durante la realización del Master. Incluye implementaciones prácticas de aprendizaje automático, redes neuronales, PLN, visualización de datos y más, aplicadas a problemas reales y con un enfoque técnico sólido.
+# Procesamiento del Lenguaje Natural (PLN)
 
+Esta sección del repositorio recoge prácticas centradas en el desarrollo de modelos de aprendizaje profundo aplicados al procesamiento del lenguaje natural. Los trabajos se enfocan en tareas clave como la clasificación de texto y el reconocimiento de entidades nombradas, empleando técnicas modernas como *word embeddings*, *LSTM*, y modelos basados en *transformers*.
 
+Cada notebook implementa un flujo completo que incluye la vectorización del texto, el diseño de arquitecturas específicas, el entrenamiento supervisado y la evaluación del rendimiento con métricas adaptadas a la naturaleza lingüística del problema. Estas actividades reflejan el dominio de las técnicas más actuales de PLN y su aplicabilidad a contextos reales en español.
 
-## Contenido
+---
 
-- [Aprendizaje automático supervisado](Aprendizaje_automático_supervisado/)
-- [Aprendizaje automático no supervisado](Aprendizaje_automático_no_supervisado/)
-- [Redes neuronales y aprendizaje profundo](Redes_neuronales_y_aprendizaje_profundo/)
-- [Procesamiento del lenguaje natural (PLN)](Procesamiento_del_lenguaje_natural_(PLN)/)
-- [Visión artificial](Visión_artificial/)
-- [Razonamiento y Planificación automática](Razonamiento_y_Planificación_automática/)
-- [Visualización de datos](Visualización_de_datos/)
+## Notebooks
 
- 
+### 🧾 Reconocimiento de entidades nombradas (NER)
 
-> [!NOTE]
->
-> Cada carpeta contiene los *notebooks*, *datasets* tratados, modelos entrenados y resultados obtenidos.
+Este trabajo aborda la tarea de *Named Entity Recognition* sobre un corpus anotado en español. A través de técnicas de tokenización y codificación *BIO*, se implementa un modelo secuencial con *LSTM* bidireccional y *embedding* de palabras para identificar entidades como nombres, lugares u organizaciones.  
+El estudio incluye el análisis del comportamiento del modelo con diferentes funciones de activación, tamaños de ventana y parámetros de regularización, así como la evaluación detallada con métricas por clase y matriz de confusión. Se demuestra la viabilidad del enfoque en contextos de procesamiento de información estructurada y extracción automática de conocimiento.
 
- 
+[🔗 `Named_Entity_Recognition.ipynb`](1-Named_Entity_Recognition/Named_Entity_Recognition.ipynb)
 
-## Tecnologías utilizadas 
+---
 
-Python, Scikit-learn, TensorFlow, Keras, Pandas, D3.js, Git, Jupyter...
+### 🧠 Clasificación de texto con *word embeddings* y *transformers*
 
- 
+Este proyecto analiza la clasificación de mensajes en español utilizando diferentes representaciones vectoriales del lenguaje. Se comparan dos enfoques principales: redes neuronales recurrentes con *word embeddings* entrenados desde cero, y el uso de *transformers* multilingües preentrenados mediante la arquitectura *BERT*.  
+La actividad incluye el análisis de métricas de evaluación, visualización de *attention maps*, impacto del *fine-tuning* y adaptación del tokenizador. Se realiza un análisis comparativo entre las dos metodologías, evidenciando la superioridad de los modelos *transformer* en tareas de clasificación semántica compleja.
 
-## Autor
+[🔗 `Word_embeddings_y_transformers_para_clasificación_de_texto.ipynb`](2-PLN_Clasificación_transformers/Word_embeddings_y_transformers_para_clasificación_de_texto.ipynb)
 
-Jose Manuel Pinillos  
+---
 
-Ingeniero Informático con Mención en Ingeniería del Software | Máster en Inteligencia Artificial
+<center>by <strong>Jose Manuel Pinillos</strong></center>
