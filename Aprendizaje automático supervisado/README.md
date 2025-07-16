@@ -23,7 +23,7 @@ Este estudio técnico aplica algoritmos de clasificación avanzada al *dataset <
 
 El proyecto destaca por su enfoque aplicado a datos geoespaciales binarios y por el análisis crítico del rendimiento de los modelos en escenarios de clasificación multicategoría. Se complementa con la revisión de un artículo científico que profundiza en el uso de estas técnicas en problemas reales.
 
-[🔗 `Clasificación_con_máquinas_de_vectores_de_soporte_y_random_forest.ipynb`](Clasificación_con_máquinas_de_vectores_de_soporte_y_random_forest.ipynb)
+[🔗 `Clasificación_con_máquinas_de_vectores_de_soporte_y_random_forest.ipynb`](2-Clasificación_geospacial_con_Random_Forest_y_SVM/Clasificación_con_máquinas_de_vectores_de_soporte_y_random_forest.ipynb)
 
 
 
@@ -32,7 +32,7 @@ Este proyecto simula un caso real de despliegue de un modelo de clasificación b
 
 Se entrenan y evalúan tres modelos supervisados, optimizados para detectar discurso de odio, y se aplican métricas de evaluación ajustadas a escenarios de desbalanceo. El resultado es un modelo validado, interpretado y justificado que podría integrarse en un sistema de moderación automática.
 
-[🔗`Clasificación_de_mensajes_de_odio.ipynb`](Clasificación_de_mensajes_de_odio.ipynb)
+[🔗`Clasificación_de_mensajes_de_odio.ipynb`](3-Clasificación_automática_de_mensajes_de_odio_en_españolClasificación_de_mensajes_de_odio.ipynb)
 
 
 
