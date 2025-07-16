@@ -16,7 +16,7 @@ Este trabajo explora el uso de redes neuronales densas (*fully connected*) para 
 
 El estudio incluye una comparación de optimizadores como *SGD*, *Adam*, *RMSprop* o *Adagrad*, así como técnicas de regularización (*Dropout*, *L2*) y el uso de *EarlyStopping*. Se automatiza el entrenamiento y evaluación mediante funciones personalizadas y se recopilan métricas clave en un *DataFrame* para su análisis comparativo.
 
-[🔗 `Clasificación_de_dígitos_utilizando_perceptrones_multicapa.ipynb`](1-Clasificación_de_dígitos_utilizando_perceptrones_multicapa/Clasificación_de_dígitos_utilizando_perceptrones_multicapa.ipynb)
+🔗[`Clasificación_de_dígitos_utilizando_perceptrones_multicapa.ipynb`](1-Clasificación_de_dígitos_utilizando_perceptrones_multicapa/Clasificación_de_dígitos_utilizando_perceptrones_multicapa.ipynb)
 
 
 
@@ -26,7 +26,7 @@ En este notebook se implementa un modelo basado en redes convolucionales profund
 
 El trabajo incluye la comparación de distintos tamaños de filtros, funciones de activación y configuraciones de *pooling*, así como una optimización progresiva del rendimiento mediante ajuste de hiperparámetros. Se analiza el efecto de la regularización y se interpretan los resultados a partir de las curvas de aprendizaje y las métricas de evaluación obtenidas.
 
-[🔗 `Redes_neuronales_convolucionales.ipynb`](2-Redes_Neuronales_Convolucionales/Redes_neuronales_convolucionales.ipynb)
+🔗[`Redes_neuronales_convolucionales.ipynb`](2-Redes_Neuronales_Convolucionales/Redes_neuronales_convolucionales.ipynb)
 
 
 
@@ -36,7 +36,7 @@ Este proyecto aborda la predicción de la intensidad de odio en mensajes escrito
 
 Se construye una arquitectura basada en una capa de *embedding* seguida de una *Bidirectional LSTM*. El trabajo incluye técnicas de ponderación de clases para mitigar el desbalanceo, y se evalúan distintas configuraciones de regularización, función de pérdida y optimizadores.
 
-[🔗 `Redes_Neuronales_Recurrentes.ipynb`](3-Redes_Neuronales_Recurrentes/Redes_Neuronales_Recurrentes.ipynb)
+🔗[`Redes_Neuronales_Recurrentes.ipynb`](3-Redes_Neuronales_Recurrentes/Redes_Neuronales_Recurrentes.ipynb)
 
 
 
