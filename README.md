@@ -23,10 +23,6 @@
 
 ## Contenido
 
-Este repositorio reúne una colección de proyectos desarrollados como parte de mi formación especializada en Inteligencia Artificial durante la realización del Master. Incluye implementaciones prácticas de aprendizaje automático, redes neuronales, PLN, visualización de datos y más, aplicadas a problemas reales y con un enfoque técnico sólido.
-
-
-
 - 📊 [Aprendizaje automático supervisado](code/Aprendizaje_automático_supervisado)
 - 🔍 [Aprendizaje automático no supervisado](code/Aprendizaje_automático_no_supervisado/)
 - 🧠 [Redes neuronales y aprendizaje profundo](code/Redes_neuronales_y_aprendizaje_profundo/)
