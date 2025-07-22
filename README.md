@@ -29,7 +29,7 @@ Este repositorio reúne una colección de proyectos desarrollados como parte de 
 - 📊 [Aprendizaje automático supervisado](code/Aprendizaje_automático_supervisado)
 - 🔍 [Aprendizaje automático no supervisado](code/Aprendizaje_automático_no_supervisado/)
 - 🧠 [Redes neuronales y aprendizaje profundo](code/Redes_neuronales_y_aprendizaje_profundo/)
-- 🗣️ [Procesamiento del lenguaje natural (PLN)](code/Procesamiento_del_lenguaje_natural_(PLN)/)
+- 🗣️ [Procesamiento del lenguaje natural (PLN)](code/Procesamiento_del_lenguaje_natural/)
 - 👁️ <u>Visión artificial</u>
 - 🧭 <u>Razonamiento y planificación automática</u>
 - 📈 <u>Visualización de datos</u>
