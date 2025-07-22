@@ -3,7 +3,7 @@
 
 
 <table>
-  <tr style="background-color:white; border: hidden;">
+  <tr style="border: hidden;">
     <td width="80%" style="border: hidden;">    
       <p style="font-size: 24px; font-weight: bold;">
         Hola, soy <span style="color:#0098CD;">Jose Manuel Pinillos</span> 👋
@@ -17,8 +17,6 @@
     </td>
   </tr>
 </table>
-
-
 
 
 
