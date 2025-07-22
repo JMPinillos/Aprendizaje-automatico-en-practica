@@ -13,10 +13,11 @@
       </p>      
     </td>
     <td width="20%" align="center">
-      <img src="Docs/images/robot_learning.png" alt="robot_learning" style="zoom:100%;" />
+      <img src="docs/images/robot_learning.png" alt="robot_learning" style="zoom:100%;" />
     </td>
   </tr>
 </table>
+
 
 
 
