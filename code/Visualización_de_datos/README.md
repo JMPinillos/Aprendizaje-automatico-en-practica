@@ -10,11 +10,11 @@ Cada notebook sigue una estructura completa, desde la exploración inicial y el 
 
 ### Análisis de tendencias en D3.js
 
-Este trabajo aborda la tarea de *Named Entity Recognition* sobre un corpus anotado manualmente en español. Tras aplicar técnicas de preprocesamiento textual, se implementa una red neuronal densa sobre secuencias codificadas con etiquetas *BIO*, entrenada con una función de pérdida categórica y métricas de exactitud por clase.
+Este trabajo desarrolla una plataforma web interactiva para el análisis de los efectos de la guerra comercial entre Estados Unidos y sus socios estratégicos, mediante visualizaciones construidas con la librería *D3.js*. A partir de datos sobre aranceles, exportaciones europeas y comercio bilateral España-EE.UU., implementando tres representaciones dinámicas.
 
-El estudio se centra en comprender el comportamiento del modelo al identificar correctamente entidades como nombres, ubicaciones y organizaciones, y se acompaña de visualizaciones de predicciones y matrices de confusión para cada clase.
+El proyecto se centra en representar de forma clara el impacto económico de las decisiones arancelarias de 2025, integrando elementos como *tooltips*, escalas continuas y leyendas interactivas. Se adopta una estructura modular que separa HTML, CSS y JavaScript, y se incorporan prácticas profesionales de diseño web para garantizar escalabilidad y mantenibilidad. La experiencia de usuario se refuerza mediante la navegación anclada y la disposición responsiva, mientras que las visualizaciones se adaptan automáticamente a los datos subyacentes, facilitando su exploración comparativa.
 
-🔗 [`Named-Entity-Recognition.ipynb`](1-Named-Entity-Recognition/Named-Entity-Recognition.ipynb)
+🔗 [`Análisis de tendencias en D3`](1-Análisis de tendencias en D3.js)
 
 
 
