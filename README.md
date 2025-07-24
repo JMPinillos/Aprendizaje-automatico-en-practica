@@ -29,7 +29,7 @@
 - 🗣️ [Procesamiento del lenguaje natural (PLN)](code/Procesamiento_del_lenguaje_natural/)
 - 👁️ <u>Visión artificial</u>
 - 🧭 <u>Razonamiento y planificación automática</u>
-- 📈 <u>Visualización de datos</u>
+- 📈 [Herramientas de visualización](code/Herramientas_de_visualización/)
 
  
 

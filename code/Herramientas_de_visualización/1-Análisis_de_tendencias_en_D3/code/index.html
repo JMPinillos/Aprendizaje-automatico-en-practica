@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="JMPinillos">
+    <meta name="description" content="Aranceles aplicados por EE.UU.">
+    <meta name="keywords" content="Aranceles, comercio, Estados Unidos, Unión Europea, China, exportaciones">
+
+    <!-- Site Title  -->
+    <title>Aranceles EEUU VS World</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="assets/css/font.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Carga la librería D3.js versión 6 -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+
+    <!-- Carga los scripts personalizados necesarios para las visualizaciones -->
+    <script src="assets/js/modules/legend.js" defer></script>
+    <script src="assets/js/modules/mapa.js" defer></script>
+    <script src="assets/js/modules/barras.js" defer></script>
+    <script src="assets/js/modules/tarta.js" defer></script>
+
+</head>
+
+<body>
+
+    <!-- Start .top-bar -->
+    <div class="top-bar">
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-logo" href="#header"><img src="assets/images/unir-logo.png" alt="logo" /></a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="site-collapse-nav">
+                    <ul class="nav nav-list navbar-nav navbar-right">
+                        <li><a class="nav-item" href="#inicio">Inicio</a></li>
+                        <li><a class="nav-item" href="#map">Impacto</a></li>
+                        <li><a class="nav-item" href="#exportacionesUE">Comercio</a></li>
+                        <li><a class="nav-item" href="#exportacionesEspana">España</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container -->
+        </nav><!-- /.navbar -->
+    </div><!-- .top-bar -->
+
+    <!-- Start .inicio-section -->
+    <div class="inicio-section" id="inicio">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="inicio-title">
+                        <h2>La <span>nueva era </span>del proteccionismo comercial</h2>
+                    </div>
+                    <div class="inicio-text">
+                        <p>
+                            Desde su llegada al poder, Donald Trump ha impulsado una política comercial profundamente
+                            proteccionista que ha redefinido el equilibrio económico internacional. La proclamación del
+                            "Día de la Liberación Económica" y la imposición de aranceles generalizados marcaron un
+                            punto de inflexión en el comercio global, intensificando las tensiones entre las principales
+                            potencias y forzando a empresas y gobiernos a adaptarse a un escenario de incertidumbre
+                            creciente.
+                        </p>
+                        <p>
+                            La guerra arancelaria iniciada por Estados Unidos no solo ha alterado las relaciones
+                            bilaterales con socios estratégicos como la Unión Europea y China, sino que también ha
+                            provocado una cadena de respuestas y reajustes a nivel mundial. Sectores clave como el
+                            industrial, el agrícola y el tecnológico se han visto especialmente afectados, evidenciando
+                            el impacto real de estas medidas en el comercio de bienes y servicios.
+                        </p>
+                        <p>
+                            En este contexto de transformaciones profundas, esta página presenta diversas
+                            visualizaciones interactivas que permiten explorar de manera clara y dinámica los efectos de
+                            las políticas arancelarias estadounidenses. A través de un mapa mundial coloreado por
+                            intensidad de aranceles, un gráfico de barras sobre las exportaciones de la Unión Europea y
+                            un diagrama de tarta que recoge las principales exportaciones de España a Estados Unidos, el
+                            visitante podrá comprender de forma visual y accesible cómo estas decisiones políticas han
+                            repercutido en el comercio internacional.
+                        </p>
+                    </div>
+                </div><!-- .col -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </div><!-- End .inicio-section -->
+
+
+    <!-- Start .map-section -->
+    <div class="map-section alt-bg" id="map">
+        <div class="container">
+            <div class="row">
+                <!-- Primera fila: texto explicativo -->
+                <div class="col-md-12">
+                    <div class="map-text">
+                        <h4>Visualizando el <span>impacto global </span>de los aranceles estadounidenses</h4>
+
+                        <p>
+                            El 2 de abril de 2025, el presidente de Estados Unidos, Donald Trump, proclamó el "Día de la
+                            Liberación Económica", anunciando la imposición de un arancel universal del 10% sobre todas
+                            las importaciones. Además, se establecieron tarifas adicionales del 20% para productos
+                            procedentes de la Unión Europea y del 104% para los provenientes de China<sup><a
+                                    href="https://elpais.com/internacional/2025-04-09/la-guerra-de-aranceles-de-donald-trump-en-directo.html"
+                                    target="_blank" rel="noopener">[1]</a></sup>.
+                        </p>
+                        <p>
+                            Estas medidas desencadenaron una serie de represalias. China respondió con aranceles del
+                            125% sobre productos estadounidenses, intensificando la guerra comercial entre ambas
+                            potencias . La Unión Europea, por su parte, expresó su preocupación y consideró posibles
+                            contramedidas si las negociaciones no daban resultados satisfactorios.
+                        </p>
+                        <p>
+                            El impacto de estas políticas arancelarias se manifestó rápidamente. Empresas como Apple
+                            comenzaron a considerar trasladar su producción fuera de China para evitar los aranceles .
+                            Sectores estratégicos como el automotriz y el agrícola se vieron especialmente afectados por
+                            las nuevas barreras comerciales<sup><a
+                                    href="https://www.huffingtonpost.es/economia/apple-estudia-trasladar-china-india-ensamblaje-iphone-vende-eeuu.html"
+                                    target="_blank" rel="noopener">[2]</a></sup>.
+                        </p>
+                        <p>
+                            Este mapa interactivo muestra visualmente los aranceles impuestos por Estados Unidos a
+                            distintos países, destacando la magnitud y el alcance de esta política comercial. Al navegar
+                            por el mapa, el usuario puede observar cómo estas decisiones repercuten en regiones
+                            concretas y sectores específicos, permitiendo una mejor comprensión de las dinámicas del
+                            comercio internacional contemporáneo.
+                        </p>
+                    </div><!-- .map-text -->
+                </div><!-- .col -->
+
+                <!-- Segunda fila: mapa D3 -->
+                <div class="map-image">
+                    <div id="mapa"></div>
+                    <div id="tooltip_mapa"
+                        style="position: absolute; opacity: 0; background: white; padding: 5px 10px; border: 1px solid #ccc; border-radius: 4px; pointer-events: none; font-size: 13px;">
+                    </div>
+                </div><!-- .map-image -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </div><!-- End .map-section -->
+
+
+    <!-- Start .exportacionesUE-section -->
+    <div class="exportacionesUE-section" id="exportacionesUE">
+        <div class="container">
+            <div class="row">
+                <!-- Primera fila: texto explicativo -->
+                <div class="col-md-12">
+                    <div class="exportacionesUE-text">
+                        <h4 id="arancelesBarras">El papel de Estados Unidos como <span>destino clave de las
+                                exportaciones europeas</span></h4>
+                        <p>
+                            En 2024, Estados Unidos reforzó su posición como principal socio comercial extracomunitario
+                            de la Unión Europea, absorbiendo el 20,6% del total de las exportaciones de bienes fuera de
+                            la región. El valor de las exportaciones europeas hacia Estados Unidos ascendió a
+                            <strong>531.600
+                                millones de euros</strong>, reflejando un crecimiento del <strong>5,5%</strong> respecto
+                            al año anterior<sup><a
+                                    href="https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20250311-1"
+                                    target="_blank">[3]</a></sup>.
+                        </p>
+                        <p>
+                            El superávit comercial de la Unión Europea frente a Estados Unidos alcanzó los
+                            <strong>198.200
+                                millones de euros</strong>, resultado de unas importaciones desde Estados Unidos por
+                            valor de <strong>333.400
+                                millones de euros</strong>, lo que representa una disminución del <strong>4%</strong>
+                            con respecto a 2023<sup><a
+                                    href="https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20250311-1"
+                                    target="_blank">[3]</a></sup>.
+                        </p>
+                        <p>
+                            Entre los principales bienes exportados a Estados Unidos destacan los <strong>productos
+                                medicinales
+                                y farmacéuticos</strong> (22,5% del total), seguidos por <strong>vehículos de
+                                carretera</strong> (9,6%), <strong>maquinaria
+                                industrial general</strong> (6,4%), <strong>maquinaria eléctrica</strong> (6,0%) y
+                            <strong>maquinaria especializada para
+                                industrias concretas</strong> (5,0%)<sup><a
+                                    href="https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20250311-1"
+                                    target="_blank">[3]</a></sup>.
+                        </p>
+                        <p>
+                            En términos de dependencia comercial, <strong>Irlanda</strong> lidera el ranking,
+                            destinando el <strong>45,8%</strong> de sus exportaciones extracomunitarias a Estados
+                            Unidos. Otros países como <strong>Finlandia</strong>, <strong>Austria</strong>,
+                            <strong>Portugal</strong>, <strong>Italia</strong>, <strong>Alemania</strong>,
+                            <strong>Eslovaquia</strong> y <strong>Suecia</strong> también presentan una elevada
+                            dependencia, superando todos ellos el 20% de su volumen exportador fuera de la UE <sup><a
+                                    href="https://es.euronews.com/business/2024/11/12/que-paises-europeos-dependen-mas-de-las-exportaciones-a-estados-unidos"
+                                    target="_blank">[4]</a></sup>.
+                        </p>
+                        <p>
+                            El siguiente gráfico de barras permite visualizar de forma clara y comparativa el volumen de
+                            exportaciones de la Unión Europea a sus principales socios comerciales. Esta representación
+                            facilita identificar los destinos más relevantes para las economías europeas en el escenario
+                            global actual.
+                        </p>
+                    </div><!-- .exportacionesUE-text -->
+                </div><!-- .col -->
+
+                <!-- Segunda fila: Gráfico de barras D3 -->
+                <div class="exportacionesUE-image">
+                    <div id="barras_exportaciones"></div>
+                    <div id="tooltip_barras"
+                        style="position: absolute; opacity: 0; background: white; padding: 5px 10px; border: 1px solid #ccc; border-radius: 4px; pointer-events: none; font-size: 13px;">
+                    </div>
+                </div><!-- .exportacionesUE-image -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </div><!-- End .exportacionesUE-section -->
+
+
+    <!-- Start .exportacionesEspana-section -->
+    <div class="exportacionesEspana-section alt-bg" id="exportacionesEspana">
+        <div class="container">
+            <div class="row">
+                <!-- Primera fila: titulo de sección -->
+                <div class="col-md-12">
+                    <div class="exportacionesEspana-title">
+                        <h4><span>Impulso </span>de sectores estratégicos</h4>
+                    </div>
+                </div><!-- .col -->
+
+                <!-- Columna izquierda: texto explicativo -->
+                <div class="col-md-6">
+                    <div class="exportacionesEspana-text">
+                        <p>
+                            En 2024, <strong>Estados Unidos</strong> se consolidó como el principal destino
+                            extracomunitario de las exportaciones españolas, absorbiendo aproximadamente el
+                            <strong>25%</strong>de las ventas de bienes fuera de la Unión Europea<sup><a
+                                    href="https://elordenmundial.com/mapas-y-graficos/exportaciones-espana-estados-unidos/"
+                                    target="_blank">[5]</a></sup>.
+                            El valor total de las exportaciones de España a EE.UU. alcanzó los <strong>18.179 millones
+                                de euros</strong>, reflejando la creciente importancia del mercado estadounidense para
+                            la economía española.
+                        </p>
+                        <p>
+                            Entre los principales productos exportados se destacan las <strong>máquinas y aparatos
+                                mecánicos (2.510,8 millones de euros), aparatos y material eléctrico (1.503 millones de
+                                euros), grasas y aceites —especialmente aceite de oliva— (1.246,6 millones de euros),
+                                combustibles y aceites minerales (1.218,7 millones de euros) y productos farmacéuticos
+                                (1.095,4 millones de euros)</strong><sup><a
+                                    href="https://www.abc.es/economia/productos-espana-exportan-estados-unidos-veran-afectados-20250403135914-nt.html"
+                                    target="_blank">[6]</a></sup>.
+                        </p>
+                        <p>
+                            El <strong>sector agroalimentario</strong> desempeña un papel fundamental dentro del
+                            comercio exterior español con Estados Unidos. Las exportaciones de <strong>aceite de
+                                oliva</strong> y derivados superan los <strong>1.200 millones de euros</strong>,
+                            mientras que las <strong>conservas de frutas, verduras y zumos</strong> rondan los
+                            <strong>400 millones</strong>, y las <strong>bebidas alcohólicas</strong> como vinos,
+                            vinagres y cervezas suman cerca de <strong>413 millones</strong><sup><a
+                                    href="https://elordenmundial.com/mapas-y-graficos/exportaciones-espana-estados-unidos/"
+                                    target="_blank">[5]</a></sup>.
+                        </p>
+                        <p>
+                            El siguiente <strong>gráfico circular</strong> ofrece una representación visual clara de los
+                            principales productos exportados por España a Estados Unidos, permitiendo apreciar la
+                            diversidad sectorial y la importancia relativa de cada categoría dentro del total exportado.
+                        </p>
+                    </div><!-- .exportacionesEspana-text -->
+                </div><!-- .col -->
+
+                <!-- Columna derecha: gráfico circular -->
+                <div class="col-md-6">
+                    <div class="exportacionesEspana-image">
+                        <div id="graficoCircular"></div>
+
+                    </div><!-- .exportacionesEspana-image -->
+                </div>
+                <div id="tooltip_graficoCircular"
+                    style="position: absolute; opacity: 0; background: white; padding: 5px 10px; border: 1px solid #ccc; border-radius: 4px; pointer-events: none; font-size: 13px;">
+                </div>
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </div><!-- End .exportacionesEspana-section -->
+
+
+    <!-- Start .footer-section -->
+    <div class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-5 mobile-center">
+                    <span class="copyright-text">Todos los derechos reservados</a></span>
+                </div><!-- .col -->
+                <div class="col-md-8 col-sm-5 text-right mobile-center">
+                    <ul class="footer-links">
+                        <li><a href="#">Licence</a></li>
+                        <li><a href="#">Policy</a></li>
+                        <li><a href="#">Discussion</a></li>
+                    </ul>
+                </div><!-- .col -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </div><!-- .footer-section -->
+
+</body>
+
+</html>
