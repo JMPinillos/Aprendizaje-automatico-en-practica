@@ -1,4 +1,4 @@
-# Aprendizaje automático no supervisad
+# Aprendizaje automático no supervisado
 Esta sección agrupa actividades centradas en técnicas de aprendizaje automático no supervisado, esenciales para descubrir patrones ocultos, agrupar datos sin etiquetas y reducir la dimensionalidad de conjuntos complejos. Se abordan desde enfoques clásicos hasta métodos más sofisticados de detección de anomalías, ofreciendo una visión aplicada y analítica del tratamiento de datos sin supervisión externa.
 
 Los trabajos incluyen análisis exploratorio, selección de métricas, visualización avanzada y comparación crítica de resultados. Cada notebook está estructurado para evidenciar el razonamiento detrás de las decisiones metodológicas, fomentando el pensamiento analítico y la capacidad de interpretación en entornos reales.
