@@ -14,7 +14,7 @@ Este trabajo aborda la tarea de *Named Entity Recognition* sobre un corpus anota
 
 El estudio se centra en comprender el comportamiento del modelo al identificar correctamente entidades como nombres, ubicaciones y organizaciones, y se acompaña de visualizaciones de predicciones y matrices de confusión para cada clase.
 
-🔗 [`Named_Entity_Recognition.ipynb`](1-Named-Entity-Recognition/Named-Entity-Recognition.ipynb)
+🔗 [`Named-Entity-Recognition.ipynb`](1-Named-Entity-Recognition/Named-Entity-Recognition.ipynb)
 
 
 
