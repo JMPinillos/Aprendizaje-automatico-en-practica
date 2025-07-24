@@ -24,7 +24,7 @@ Este proyecto aborda la clasificación de mensajes escritos en inglés según su
 
 La actividad permite comparar el rendimiento entre modelos simples y modelos avanzados de *transformers*, mostrando una mejora significativa en la capacidad predictiva al utilizar modelos preentrenados.
 
-🔗 [`Creando_un_dashboard_con_Power_BI`](2-Creando_un_dashboard_con_Power_BI/Word_embeddings_y_transformers_para_clasificación_de_texto.ipynb)
+🔗 [`Creando_un_dashboard_con_Power_BI`](2-Creando_un_dashboard_con_Power_BI)
 
 
 
