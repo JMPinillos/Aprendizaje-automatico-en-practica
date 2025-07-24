@@ -23,7 +23,7 @@ Este trabajo se centra en técnicas de reducción de dimensionalidad aplicadas a
 
 Se implementan y comparan dos enfoques: *Principal Component Analysis (PCA)* y *t-distributed Stochastic Neighbor Embedding (t-SNE)*. El objetivo es evaluar su capacidad para preservar la estructura de los datos, reducir el ruido y facilitar el análisis visual posterior. Las visualizaciones obtenidas evidencian las fortalezas de cada método en distintos contextos.
 
-🔗[`Análisis_de_reducción_de_dimensionalidad_(PCA_y_t-SNE).ipynb`](2-Análisis_de_reducción_de_dimensionalidad_(PCA_y_t_SNE)/2-Análisis_de_reducción_de_dimensionalidad_(PCA_y_t_SNE).ipynb)
+🔗[`Análisis_de_reducción_de_dimensionalidad_(PCA_y_t-SNE).ipynb`](2-Análisis_de_reducción_de_dimensionalidad_(PCA_y_t_SNE)/Análisis_de_reducción_de_dimensionalidad_(PCA_y_t_SNE).ipynb)
 
 
 
