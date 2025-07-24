@@ -1,6 +1,6 @@
 <p align="center" style="font-family: 'Calibri'; font-size:50px; color:#0098CD; font-weight: bold;">Aprendizaje automático en práctica</p>
 
-
+# <center>Aprendizaje automático en práctica</center>
 
 <table>
   <tr style="border: hidden;">
