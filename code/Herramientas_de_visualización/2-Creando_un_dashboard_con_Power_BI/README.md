@@ -3,7 +3,7 @@
 
 
 <div align="center">
-  	<a href="code" target="_blank"><img src="https://custom-icon-badges.demolab.com/badge/Power%20BI-F1C912?logo=power-bi&logoColor=fff"></a>
+  	<a href="code" target="_blank"><img src="https://custom-icon-badges.demolab.com/badge/Power%20BI-F1C912?logo=power-bi&logoColor=222222"></a>
 </div>
 
 
