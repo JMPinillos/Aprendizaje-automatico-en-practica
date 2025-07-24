@@ -3,9 +3,10 @@
 
 
 <div align="center">
-  	<a href="https://github.com/JMPinillos/Aprendizaje-automatico-en-practica/tree/main/code/Visualizaci%C3%B3n_de_datos/1-An%C3%A1lisis%20de%20tendencias%20en%20D3.js/code" target="_blank"><img src="https://img.shields.io/badge/Código-FF7F00?logo=JavaScript&logoColor=white"></a>
+  	<a href="code/Visualizaci%C3%B3n_de_datos/1-An%C3%A1lisis%20de%20tendencias%20en%20D3.js/code" target="_blank"><img src="https://img.shields.io/badge/Código-FF7F00?logo=JavaScript&logoColor=white"></a>
   	<a href="https://jmpinillos.github.io/Data-Analyst-para-Inteligencia-Artificial/" target="_blank"><img src="https://img.shields.io/badge/Página-09D9FD?logo=HTML5&logoColor=white"></a>
 </div>
+
 
 
 <p align="center" style="font-family: 'Calibri Light'; font-size:18px">
@@ -48,8 +49,8 @@ En el caso del **gráfico de tarta**, se han utilizado datos específicos sobre 
 Finalmente, se proporcionarán enlaces de descarga directa a los conjuntos de datos utilizados, de manera que el usuario pueda acceder a las fuentes originales para su consulta o análisis posterior.
 
 - [aranceles_adaptados_d3.csv](code/assets/data/aranceles_adaptados_d3.csv)
-- [exportaciones_espana_eeuu.csv](https://github.com/JMPinillos/Data-Analyst-para-Inteligencia-Artificial/blob/main/assets/data/exportaciones_espana_eeuu.csv)
-- [volumen_de_las_exportaciones_de_la_ue_a_otros_paises.csv](https://github.com/JMPinillos/Data-Analyst-para-Inteligencia-Artificial/blob/main/assets/data/volumen_de_las_exportaciones_de_la_ue_a_otros_paises.csv)
+- [exportaciones_espana_eeuu.csv](code/assets/data/exportaciones_espana_eeuu.csv)
+- [volumen_de_las_exportaciones_de_la_ue_a_otros_paises.csv](code/assets/data/volumen_de_las_exportaciones_de_la_ue_a_otros_paises.csv)
 
  
 
