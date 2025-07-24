@@ -9,11 +9,6 @@
 
 
 
-<p align="center" style="font-family: 'Calibri Light'; font-size:18px">
-  Jose Manuel Pinillos Rubio
-</p>
-
-
 ## 1. INTRODUCCIÓN
 
 En 2025, la política económica internacional vivió una etapa de gran tensión debido a las decisiones arancelarias adoptadas por el presidente de Estados Unidos, Donald Trump. La proclamación del "Día de la Liberación Económica" marcó el inicio de una guerra arancelaria sin precedentes, en la que Estados Unidos impuso un arancel universal del 10 % a todas las importaciones, aplicando tarifas adicionales de hasta el 20 % a la Unión Europea y elevando los aranceles a China hasta alcanzar el 104 %. Esta estrategia de presión económica provocó una serie de medidas de represalia, especialmente por parte de China y la Unión Europea, intensificando el proteccionismo y desestabilizando los flujos comerciales a nivel mundial.
