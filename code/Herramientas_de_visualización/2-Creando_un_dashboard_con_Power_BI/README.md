@@ -340,8 +340,6 @@ En conjunto, la implementación de interacciones cruzadas convierte al *dashboar
 
 ## 6. ANÁLISIS E INTERPRETACIÓN DE LOS RESULTADOS
 
-
-
 ### 6.1 Puertas que se abren, raíces que se mueven: el pulso migratorio en España
 
 La inmigración en España no es solo una cuestión de cifras, sino un fenómeno profundamente humano que atraviesa dimensiones sociales, económicas y políticas. Cada número representa una decisión vital, una búsqueda de estabilidad, de seguridad o de esperanza. En las últimas décadas, este tema ha ocupado un lugar central en el debate público, tanto por su impacto directo en la estructura demográfica y en los servicios del Estado, como por las percepciones y emociones que despierta en la sociedad.
@@ -436,18 +434,6 @@ Si se observa con lupa, el **gráfico de tarta** desvela que el 30% de la inmigr
 
 Esta alta concentración en pocos núcleos urbanos plantea desafíos específicos: presión sobre el parque de vivienda, escolarización de menores, saturación de servicios públicos o la necesidad de políticas de integración más activas. Al mismo tiempo, estas regiones también concentran oportunidades económicas, programas de acogida más consolidados y una mayor diversidad social.
 
-
-
-
-
-
-
-
-
-
-
-
-
  
 
 ### 6.3 Cuando el destino está fuera: españoles en el extranjero
@@ -456,39 +442,63 @@ España no solo es tierra de acogida. También es punto de partida. En un contex
 
  
 
-#### **1.3.1**    Una salida marcada por el vaivén de los años
+#### 6.3.1 Una salida marcada por el vaivén de los años
 
- 
+
+
+<p align="center"><img align="center" src="docs/images/grafico_areas_emigracion.png" alt="grafico_areas_emigracion" style="border: 1px solid black;"/></p>
+
+
 
 Los datos recogidos entre 2023 y 2025 revelan un patrón dinámico. El año 2024 destaca como el de mayor volumen de emigración, con **alrededor de 450.000 personas** registradas. En contraste, tanto en 2023 como en 2025 las cifras se sitúan en torno a las **250.000 salidas**. Esta curva ascendente y descendente puede interpretarse como reflejo de distintos fenómenos: reactivación del mercado internacional postpandemia, cambios en la normativa migratoria o una mayor disposición a la movilidad por parte de la ciudadanía.
 
 Es importante señalar que los datos de 2025 aún no están cerrados, lo que explica su aparente descenso. Conforme avance el año y se actualicen los registros, es probable que la cifra se aproxime a la de ejercicios anteriores.
 
-#### **1.3.2**    Quién se va, y hacia dónde
 
- 
+
+#### 6.3.2 Quién se va, y hacia dónde
+
+
+
+<p align="center"><img align="center" src="docs/images/grafico_barras_emigracion.png" alt="grafico_barras_emigracion" style="border: 1px solid black;"/></p>
+
+
 
 El análisis territorial muestra que las salidas no se distribuyen de forma homogénea. Las comunidades con mayor volumen de emigración, **Cataluña, Andalucía, Madrid, la Comunitat Valenciana y Barcelona** (como entidad separada), son también algunas de las que reciben más inmigrantes, lo que refleja una **alta movilidad interna e internacional**. Factores como el coste de vida, la presión laboral o el dinamismo de sus mercados pueden estar impulsando tanto entradas como salidas.
 
  
 
-   En cuanto a los destinos, **Marruecos encabeza el listado**, seguido por **Rumanía, Colombia y el Reino Unido**. También figuran países europeos como Italia, Alemania y Portugal, así como latinoamericanos como Venezuela, Brasil o Cuba. Esta distribución sugiere que muchos movimientos pueden no ser “nuevas salidas”, sino **retornos** de personas con doble nacionalidad, descendencia extranjera o fuertes lazos familiares y comunitarios en estos países.
+<p align="center"><img align="center" src="docs/images/tabla_emigracion.png" alt="tabla_emigracion" style="border: 1px solid black;"/></p>
+
+
+
+En cuanto a los destinos, **Marruecos encabeza el listado**, seguido por **Rumanía, Colombia y el Reino Unido**. También figuran países europeos como Italia, Alemania y Portugal, así como latinoamericanos como Venezuela, Brasil o Cuba. Esta distribución sugiere que muchos movimientos pueden no ser “nuevas salidas”, sino **retornos** de personas con doble nacionalidad, descendencia extranjera o fuertes lazos familiares y comunitarios en estos países.
 
 La dualidad entre emigración neta y migración circular plantea desafíos a la hora de interpretar el fenómeno, pero también ofrece claves valiosas sobre cómo se construyen las trayectorias migratorias en el siglo XXI.
 
 ###  
 
-#### **1.3.3**    El caso catalán: un punto de partida clave
+#### 6.3.3 El caso catalán: un punto de partida clave
 
  
+
+<p align="center"><img align="center" src="docs/images/Emigración_Cataluña.png" alt="Emigración_Cataluña" style="border: 1px solid black;"/></p>
+
+
 
 Cataluña destaca especialmente por su volumen de emigración. En los tres años analizados, se mantiene como una de las principales regiones emisoras. Solo en 2023, **más de 8.000 personas** emigraron desde esta comunidad hacia cinco destinos principales: **Rumanía, Colombia, Pakistán, Italia y Marruecos**. Este patrón confirma la conexión de Cataluña con redes migratorias internacionales consolidadas y su papel como región clave en los flujos de salida del país.
 
 En muchos casos, estos movimientos pueden responder a **retornos planificados** o a decisiones familiares, y reflejan una convivencia establecida entre culturas que continúa fuera de nuestras fronteras.
 
-#### **1.3.4**    Un mundo de destinos
+
+
+#### 6.3.4 Un mundo de destinos
 
  
+
+<p align="center"><img align="center" src="docs/images/mapa_emigracion.png" alt="mapa_emigracion" style="border: 1px solid black;"/></p>
+
+
 
 El mapa global ofrece una perspectiva más amplia de estos desplazamientos. **Europa** sigue siendo el principal receptor de emigración española, con destinos como **Italia, Alemania, Francia o Portugal**, donde influyen tanto la proximidad como los acuerdos de libre circulación de la Unión Europea.
 
@@ -496,9 +506,15 @@ En **América Latina**, los vínculos históricos y lingüísticos mantienen una
 
 Este mosaico de rutas migratorias refleja la complejidad de un fenómeno que no conoce fronteras fijas, sino conexiones móviles y afectivas.
 
-#### **1.3.5**    Cinco destinos, múltiples razones
+
+
+#### 6.3.5 Cinco destinos, múltiples razones
 
  
+
+<p align="center"><img align="center" src="docs/images/grafico_tarta_emigracion.png" alt="grafico_tarta_emigracion" style="border: 1px solid black;"/></p>
+
+
 
 El gráfico de tarta sintetiza los cinco principales destinos de la emigración española reciente. **Marruecos** lidera con un contundente **41,2% del total**, seguido por **Rumanía (24,55%)**, **Colombia (17,16%)**, el **Reino Unido (14,28%)** e **Italia**.
 
@@ -522,22 +538,14 @@ Detrás de cada número hay una historia. Una decisión. Un proyecto de vida. Re
 
 
 
-## Referencias
+## 7. CONCLUSIONES
 
-*D3*. (15 de abril de 2025). Obtenido de https://d3js.org/
+La realización de esta actividad ha permitido aplicar de forma práctica los conocimientos adquiridos en torno al diseño de visualizaciones interactivas mediante herramientas de *business intelligence*. A través del uso de Power BI, se ha construido un *dashboard* completo y funcional que facilita el análisis de los flujos migratorios en España entre los años 2023 y 2025, ofreciendo una representación accesible y estructurada tanto de la inmigración como de la emigración.
 
-*El País*. (10 de abril de 2025). Obtenido de https://elpais.com/internacional/2025-04-09/la-guerra-de-aranceles-de-donald-trump-en-directo.html
+El proceso de transformación y limpieza de datos ha sido esencial para garantizar la coherencia de las visualizaciones, así como para permitir una correcta interacción entre filtros y componentes gráficos. La creación de medidas DAX personalizadas ha aportado mayor flexibilidad analítica, posibilitando el cálculo de indicadores dinámicos y la segmentación de datos por provincias, nacionalidades o periodos temporales.
 
-*epdata*. (8 de abril de 2025). Obtenido de https://www.epdata.es/datos/importaciones-espanolas-estados-unidos-datos-graficos/456
+La estructuración del *dashboard* en dos páginas temáticas ha contribuido a una mejor organización de la información, facilitando una lectura diferenciada de los flujos de entrada y salida. La combinación de mapas coropléticos, gráficos de barras, tartas y tablas interactivas ha permitido representar con claridad tanto la dimensión geográfica como la evolución cuantitativa del fenómeno migratorio. Además, el diseño responsivo y el uso de filtros globales y específicos por página han mejorado la experiencia de usuario, permitiéndole explorar los datos desde múltiples ángulos.
 
-Esplá, V. L. (3 de marzo de 2025). *ABE Economía*. Obtenido de https://www.abc.es/economia/productos-espana-exportan-estados-unidos-veran-afectados-20250403135914-nt.html?ref=http%3A%2F%2F127.0.0.1%3A5500%2F
+El uso de Power BI se ha mostrado especialmente eficaz en este tipo de análisis, por su capacidad para integrar fuentes de datos complejas, representar relaciones geográficas y temporales, y ofrecer visualizaciones interactivas sin requerir conocimientos avanzados de programación. Esto refuerza su valor como herramienta útil en contextos académicos, institucionales y sociales donde se requiere comunicar fenómenos complejos de forma comprensible.
 
-*eurosat*. (11 de marzo de 2025). Obtenido de https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20250311-1
-
-*huffingtonpost*. (25 de abril de 2025). Obtenido de https://www.huffingtonpost.es/economia/apple-estudia-trasladar-china-india-ensamblaje-iphone-vende-eeuu.html
-
-Monter, J. (16 de marzo de 2025). *El Orden Mundial*. Obtenido de https://elordenmundial.com/mapas-y-graficos/exportaciones-espana-estados-unidos/
-
-Yanatma, S. (12 de noviembre de 2024). *euronews*. Obtenido de https://es.euronews.com/business/2024/11/12/que-paises-europeos-dependen-mas-de-las-exportaciones-a-estados-unidos
-
- 
+Finalmente, esta actividad no solo ha reforzado competencias técnicas en el uso de herramientas de visualización de datos, sino que también ha favorecido una aproximación crítica al análisis migratorio, fomentando la capacidad de contextualizar los datos dentro de procesos sociales más amplios. La experiencia adquirida resulta especialmente valiosa en un entorno cada vez más orientado a la toma de decisiones informadas y a la comunicación efectiva de información basada en evidencia.
