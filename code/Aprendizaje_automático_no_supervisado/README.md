@@ -13,7 +13,7 @@ Este proyecto aborda la agrupación automática de datos sin etiquetas mediante 
 
 Se realiza un análisis exploratorio inicial, reducción de dimensionalidad con PCA y visualización de resultados. El estudio destaca por mostrar cómo diferentes técnicas pueden ofrecer segmentaciones dispares, y cómo elegir el método más adecuado según la distribución de los datos y el objetivo de negocio.
 
-🔗[`Exploración_y_comparación_de_algoritmos_de_agrupamiento.ipynb`](1-Exploración_y_comparación_de_algoritmos_de_agrupamiento.ipynb/Exploración_y_comparación_de_algoritmos_de_agrupamiento.ipynb)
+🔗[`Exploración_y_comparación_de_algoritmos_de_agrupamiento.ipynb`](1-Exploración_y_comparación_de_algoritmos_de_agrupamientob/Exploración_y_comparación_de_algoritmos_de_agrupamiento.ipynb)
 
 
 
@@ -23,7 +23,7 @@ Este trabajo se centra en técnicas de reducción de dimensionalidad aplicadas a
 
 Se implementan y comparan dos enfoques: *Principal Component Analysis (PCA)* y *t-distributed Stochastic Neighbor Embedding (t-SNE)*. El objetivo es evaluar su capacidad para preservar la estructura de los datos, reducir el ruido y facilitar el análisis visual posterior. Las visualizaciones obtenidas evidencian las fortalezas de cada método en distintos contextos.
 
-🔗[`Análisis_de_reducción_de_dimensionalidad_(PCA_y_t-SNE).ipynb`](3-Análisis_de_reducción_de_dimensionalidad_(PCA_y_t-SNE)/Análisis_de_reducción_de_dimensionalidad_(PCA_y_t-SNE).ipynb)
+🔗[`Análisis_de_reducción_de_dimensionalidad_(PCA_y_t-SNE).ipynb`](2-Análisis_de_reducción_de_dimensionalidad_(PCA_y_t-SNE)/Análisis_de_reducción_de_dimensionalidad_(PCA_y_t-SNE).ipynb)
 
 
 
