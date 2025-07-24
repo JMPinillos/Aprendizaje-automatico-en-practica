@@ -14,7 +14,7 @@ Este trabajo desarrolla una plataforma web interactiva para el análisis de los 
 
 El proyecto se centra en representar de forma clara el impacto económico de las decisiones arancelarias de 2025, integrando elementos como *tooltips*, escalas continuas y leyendas interactivas. Se adopta una estructura modular que separa HTML, CSS y JavaScript, y se incorporan prácticas profesionales de diseño web para garantizar escalabilidad y mantenibilidad. La experiencia de usuario se refuerza mediante la navegación anclada y la disposición responsiva, mientras que las visualizaciones se adaptan automáticamente a los datos subyacentes, facilitando su exploración comparativa.
 
-🔗 [`Análisis de tendencias en D3`](1-Análisis de tendencias en D3.js)
+🔗 [`Análisis de tendencias en D3`](/1-Análisis de tendencias en D3.js)
 
 
 
