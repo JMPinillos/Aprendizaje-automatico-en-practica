@@ -1,15 +1,4 @@
-
-
-<p align="center"><img src="docs/images/Logo_UNIR.png" alt="Logo_UNIR" /></p>
-<p align="center" style="font-family: 'Calibri Light'; font-size:30px">Universidad Internacional de La Rioja</p>
-<p align="center" style="font-family: 'Calibri Light'; font-size:26px">Escuela Superior de Ingeniería y Tecnología</center></p>
-
-
-
-<p align="center" style="font-family: 'Calibri Light'; font-size:24px"><strong>Master en Inteligencia Artificial</strong></p>
-<p align="center" style="font-family: 'Calibri Light'; font-size:24px">Herramientas de visualización</p>
-
-<p align="center"><strong style="font-family: 'Calibri'; font-size:30px; color:#0098CD">Análisis de tendencias en D3.js</strong></p>
+<p align="center" style="font-family: 'Calibri'; font-size:50px; color:#0098CD; font-weight: bold;">Análisis de tendencias en D3.js</strong></p>
 
 
 
@@ -19,39 +8,9 @@
 </div>
 
 
-
-
-
-
 <p align="center" style="font-family: 'Calibri Light'; font-size:18px">
   Jose Manuel Pinillos Rubio
 </p>
-
-
-<h2>ÍNDICE</h2>
-
-[TOC]
-
-<h2>ÍNDICE DE FIGURAS</h2>
-
-[Figura 1. Estructura del proyecto web](#Figura_1)
-
-[Figura 2. Leyenda del mapa](#Figura_2)
-
-[Figura 3. Tooltip del mapa desplegado](#Figura_3)
-
-[Figura 4. Mapa interactivo](#Figura_4)
-
-[Figura 5. Gráfico de barras](#Figura_5)
-
-[Figura 6. Tooltip del gráfico de barras desplegado](#Figura_6)
-
-[Figura 7. Gráfico de tarta](#Figura_7)
-
-[Figura 8. Tooltip del gráfico de tarta](#Figura_8)
-
-[Figura 9. Leyenda del gráfico de tarta](#Figura_9)
-
 
 
 ## 1. INTRODUCCIÓN
