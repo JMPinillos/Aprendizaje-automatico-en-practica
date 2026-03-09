@@ -27,7 +27,7 @@
 - 🔍 [Aprendizaje automático no supervisado](code/Aprendizaje_automático_no_supervisado/)
 - 🧠 [Redes neuronales y aprendizaje profundo](code/Redes_neuronales_y_aprendizaje_profundo/)
 - 🗣️ [Procesamiento del lenguaje natural (PLN)](code/Procesamiento_del_lenguaje_natural/)
-- 👁️ [Visión artificial](code/Visión artificial)
+- 👁️ [Visión artificial](code/Visión_artificial)
 - 🧭 <u>Razonamiento y planificación automática</u>
 - 📈 [Herramientas de visualización](code/Herramientas_de_visualización/)
 
