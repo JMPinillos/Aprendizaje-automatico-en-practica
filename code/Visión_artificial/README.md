@@ -49,9 +49,9 @@ El análisis combina procedimientos de segmentación con evaluación cuantitativ
 
 Los trabajos desarrollados en esta sección se documentan también en formato de artículo técnico:
 
-- 🔗[`Operaciones elementales para la mejora de imágenes con baja iluminación`](1-Mejora_de_imagen_Operaciones_elementales/Mejora_de_imagen_Operaciones_elementales.ipynb)
-- 🔗[`Exploración de filtros espaciales y morfológicos en escenarios reales`](2-Exploración_de_filtros_espaciales_y_morfológicos_en_escenarios_reales/Exploración_de_filtros_espaciales_y_morfológicos_en_escenarios_reales.ipynb)
-- 🔗[`Análisis de la deforestación en la selva amazónica con técnicas de segmentación`](3-Análisis_de_la_deforestación_en_la_selva_amazónica_con_técnicas_de_segmentación/Análisis_de_la_deforestación_en_la_selva_amazónica_con_técnicas_de_segmentación.ipynb)
+- 🔗[`Operaciones elementales para la mejora de imágenes con baja iluminación`](1-Operaciones_elementales_para_la_mejora_de_imágenes_con_baja_iluminación/Operaciones_elementales_para_la_mejora_de_imágenes_con_baja_iluminación.pdf)
+- 🔗[`Exploración de filtros espaciales y morfológicos en escenarios reales`](2-Exploración_de_filtros_espaciales_y_morfológicos_en_escenarios_reales/Exploración_de_filtros_espaciales_y_morfológicos_en_escenarios_reales.pdf)
+- 🔗[`Análisis de la deforestación en la selva amazónica con técnicas de segmentación`](3-Análisis_de_la_deforestación_en_la_selva_amazónica_con_técnicas_de_segmentación/Análisis_de_la_deforestación_en_la_selva_amazónica_con_técnicas_de_segmentación.pdf)
 
 
 
