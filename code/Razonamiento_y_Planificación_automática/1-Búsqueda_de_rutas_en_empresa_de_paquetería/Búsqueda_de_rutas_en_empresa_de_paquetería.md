@@ -335,8 +335,6 @@ Al igual que en la sección anterior, en esta sección se analiza el comportamie
 
 
 
-#  enlaces a imagenes, ver en word
-
 Los resultados muestran que tanto UCS como $\text{A}^*$ han encontrado caminos con un coste total de 9.0, lo que confirma que ambos algoritmos han proporcionado soluciones óptimas en este entorno. En el caso de UCS, este comportamiento era esperable, ya que su diseño garantiza la optimalidad siempre que los costes sean positivos. El algoritmo expande los nodos en orden creciente de coste acumulado, lo que le permite identificar el camino de menor coste siempre que no existan ciclos negativos.
 
 $\text{A}^*$ también ha logrado la solución óptima en las tres ejecuciones, a pesar de utilizar heurísticas diferentes. En los casos de la heurística basada en la distancia de Manhattan y de la distancia de Chebyshev, ambas son admisibles y consistentes, por lo que ofrecen garantías teóricas de optimalidad. Más relevante es el resultado obtenido con la heurística de Manhattan multiplicada por dos, que no cumple la condición de admisibilidad porque sobreestima el coste real restante. Sin embargo, en este entorno concreto también ha conducido a la solución óptima. Esto se debe a que la sobreestimación no ha sido lo suficientemente elevada como para desviar la búsqueda hacia caminos subóptimos.
