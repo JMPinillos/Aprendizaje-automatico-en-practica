@@ -372,11 +372,43 @@ No obstante, aunque las tres heurísticas han mantenido la optimalidad en estos 
 
 
 
-<img id="Figura_8" src="images/Mapa_general_modificacion_salida.png" alt="Mapa_general_modificacion_salida" style="zoom:50%;" />
+*Tabla 4. Comparativa de los algoritmos A\* con diferentes heurísticas en el mapa modificado ([Figura_9](#Figura_9))*
 
-TABLAS AQUI
-
-[Figura 13. Código manejador de logs. Fuente: Elaboración propia.](#Figura_13)
+<div id="Tabla_Algoritmos_4">
+  <table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse;">
+    <tr style="background-color: #0098CD; color:white; text-align: center;">
+      <th>Algoritmo</th>
+      <th>Longitud</th>
+      <th>Coste</th>
+      <th>Tam. Máx. Lista</th>
+      <th>Nodos Expandidos</th>
+    </tr>
+    <!-- A* MANHATTAN -->
+    <tr style="background-color:white" align="center">
+      <td><strong>A*</strong><br>Distancia Manhattan</td>
+      <td>29</td>
+      <td>62.0</td>
+      <td>6</td>
+      <td>71</td>
+    </tr>
+    <!-- A* CHEBYSHEV -->
+    <tr style="background-color:white" align="center">
+      <td><strong>A*</strong><br>Distancia Chebyshev</td>
+      <td>29</td>
+      <td>62.0</td>
+      <td>8</td>
+      <td>79</td>
+    </tr>
+    <!-- A* MANHATTAN x2 -->
+    <tr style="background-color:white" align="center">
+      <td><strong>A*</strong><br>Distancia Manhattan (x2)</td>
+      <td>29</td>
+      <td>62.0</td>
+      <td>7</td>
+      <td>53</td>
+    </tr>
+  </table>
+</div>
 
 
 
