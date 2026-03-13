@@ -16,7 +16,9 @@ Este trabajo analiza el comportamiento de diferentes estrategias de búsqueda ut
 
 El desarrollo incluye la formalización de problemas, el análisis del funcionamiento de los algoritmos y la discusión de sus propiedades teóricas, como la completitud, la optimalidad y la complejidad temporal y espacial.
 
-🔗Búsqueda_de_rutas_en_empresa_de_paquetería.md
+🔗[Búsqueda_de_rutas_en_empresa_de_paquetería.md](1-Búsqueda_de_rutas_en_empresa_de_paquetería/Búsqueda_de_rutas_en_empresa_de_paquetería.md)
+
+
 
 
 
@@ -26,11 +28,7 @@ Este trabajo se centra en la representación formal de problemas de planificaci�
 
 El ejercicio aborda tanto la definición del dominio como la construcción de problemas específicos, describiendo predicados, acciones y objetivos de planificación. La ampliación del dominio permite analizar cómo evoluciona la complejidad del problema cuando se introducen nuevas capacidades de cooperación entre agentes y restricciones adicionales en el entorno.
 
-🔗Planificación_para_un_rover_marciano.md
-
-
-
-🔗[`Redes_Neuronales_Recurrentes.ipynb`](3-Redes_Neuronales_Recurrentes/Redes_Neuronales_Recurrentes.ipynb)
+🔗[Planificación_para_un_rover_marciano.md](2-Planificación_para_un_rover_marciano/Planificación_para_un_rover_marciano.md)
 
 
 
