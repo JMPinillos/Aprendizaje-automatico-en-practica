@@ -2,9 +2,11 @@
 
 En esta sección se recopilan prácticas desarrolladas en el ámbito de la visión artificial, una de las áreas fundamentales de la inteligencia artificial centrada en el análisis automático de imágenes. Las actividades exploran diferentes técnicas de procesamiento digital de imágenes orientadas a mejorar la calidad visual, resaltar estructuras relevantes y facilitar la interpretación de información visual en distintos escenarios.
 
-Los trabajos abordan problemas reales de procesamiento de imágenes mediante transformaciones de intensidad, análisis de histogramas, filtrado espacial, operaciones morfológicas y técnicas de segmentación. A lo largo de las actividades se estudia cómo estas herramientas permiten mejorar la visibilidad de escenas degradadas, identificar estructuras de interés y extraer información significativa a partir de datos visuales.
+Los trabajos abordan problemas reales de procesamiento de imágenes mediante transformaciones de intensidad, análisis y normalización de histogramas, filtrado espacial, operaciones morfológicas y técnicas de segmentación. A lo largo de las actividades se estudia cómo estas herramientas permiten mejorar la visibilidad de escenas degradadas, identificar estructuras de interés y extraer información significativa a partir de datos visuales.
 
-El conjunto de trabajos demuestra cómo la combinación de distintas técnicas de procesamiento permite abordar problemas visuales complejos de forma progresiva, integrando métodos de mejora de imagen, análisis estructural y segmentación para obtener representaciones más claras e informativas de las escenas analizadas.
+Este conjunto de trabajos demuestra cómo la combinación de distintas técnicas de procesamiento permite abordar problemas visuales complejos de forma progresiva, integrando métodos de mejora de imagen, análisis estructural y segmentación para obtener representaciones más claras e informativas de las escenas analizadas.
+
+
 
 
 ## Notebooks
