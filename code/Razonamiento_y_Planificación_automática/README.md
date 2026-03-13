@@ -6,7 +6,7 @@ Los trabajos desarrollados exploran dos aspectos complementarios del campo. Por 
 
 Estos trabajos demuestran cómo la combinación de algoritmos de búsqueda y modelos formales de planificación permite representar problemas complejos, estructurar el conocimiento del entorno y generar automáticamente secuencias de acciones válidas para alcanzar los objetivos definidos.
 
-
+METER ENLACES A LOS ARCHI
 
 ## Documentación
 
