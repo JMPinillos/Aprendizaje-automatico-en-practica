@@ -1,9 +1,9 @@
 # Visión artificial
-En esta sección se recopilan trabajos centrados en el análisis y procesamiento de imágenes digitales, una de las áreas fundamentales de la inteligencia artificial aplicada a la percepción automática. Los ejercicios exploran diferentes etapas del procesamiento visual, desde la mejora de imágenes degradadas hasta la segmentación de estructuras relevantes en distintos contextos.
+En esta sección se recopilan prácticas desarrolladas en el ámbito de la visión artificial, una de las áreas fundamentales de la inteligencia artificial centrada en el análisis automático de imágenes. Las actividades exploran diferentes técnicas de procesamiento digital de imágenes orientadas a mejorar la calidad visual, resaltar estructuras relevantes y facilitar la interpretación de información visual en distintos escenarios.
 
-A lo largo de los trabajos se aplican técnicas clásicas de procesamiento digital de imágenes como transformaciones de intensidad, análisis de histogramas, filtrado espacial y operaciones morfológicas. Estas herramientas permiten mejorar la calidad visual de las imágenes, resaltar estructuras de interés y facilitar tareas posteriores de análisis automático.
+Los trabajos abordan problemas reales de procesamiento de imágenes mediante transformaciones de intensidad, normalización de histogramas, filtrado espacial, operaciones morfológicas y técnicas de segmentación. A lo largo de las actividades se estudia cómo estas herramientas permiten mejorar la visibilidad de escenas degradadas, identificar estructuras de interés y extraer información significativa a partir de datos visuales.
 
-Las actividades han sido desarrolladas como parte del itinerario formativo del Máster en Inteligencia Artificial y siguen un enfoque experimental en el que se analizan las técnicas de forma individual y combinada, evaluando su impacto visual y cuantitativo mediante métricas como contraste, entropía o distribución tonal.
+Estas actividades han sido desarrolladas como parte del itinerario formativo del Máster en Inteligencia Artificial y reflejan un enfoque experimental en el que las técnicas se analizan de forma individual y combinada, evaluando su impacto visual y cuantitativo mediante métricas como contraste, entropía o distribución tonal.
 
 
 
