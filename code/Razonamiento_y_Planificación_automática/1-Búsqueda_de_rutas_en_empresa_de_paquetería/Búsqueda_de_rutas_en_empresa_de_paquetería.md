@@ -93,10 +93,10 @@ En esta sección se presentarán los resultados obtenidos al comparar los algori
 <table>
   <tr style="background-color: white">
     <td style="border: hidden;">
-      <center><img src="images/Solucion_BFS.png" alt="Solucion_BFS" style="zoom:50%;" /></center><br>
+      <center><img id="Figura_1" src="images/Solucion_BFS.png" alt="Solucion_BFS" style="zoom:50%;" /></center><br>
     </td>
     <td style="border: hidden;">
-      <center><img src="images/Solucion_BFS.png" alt="Solucion_BFS" style="zoom:50%;" /></center><br>
+      <center><img id="Figura_2" src="images/Solucion_BFS.png" alt="Solucion_BFS" style="zoom:50%;" /></center><br>
     </td>    
   </tr>
   <tr style="background-color: white">
@@ -187,13 +187,13 @@ En esta sección se analizarán las diferencias de comportamiento entre los algo
 <table>
   <tr style="background-color: white">
     <td style="border: hidden;">
-      <center><img src="images/Solucion_BFS.png" alt="Solucion_BFS" style="zoom:50%;" /></center><br>
+      <center><img id="Figura_1" src="images/Solucion_BFS.png" alt="Solucion_BFS" style="zoom:50%;" /></center><br>
     </td>
     <td style="border: hidden;">
-      <center><img src="images/Solucion_BFS.png" alt="Solucion_BFS" style="zoom:50%;" /></center><br>
+      <center><img id="Figura_3" src="images/Solucion_BFS.png" alt="Solucion_BFS" style="zoom:50%;" /></center><br>
     </td> 
     <td style="border: hidden;">
-      <center><img src="images/Solucion_BFS.png" alt="Solucion_BFS" style="zoom:50%;" /></center><br>
+      <center><img id="Figura_4" src="images/Solucion_BFS.png" alt="Solucion_BFS" style="zoom:50%;" /></center><br>
     </td> 
   </tr>
   <tr style="background-color: white">
@@ -311,13 +311,13 @@ Al igual que en la sección anterior, en esta sección se analiza el comportamie
 <table>
   <tr style="background-color: white">
     <td style="border: hidden;">
-      <center><img src="images/Solucion_BFS.png" alt="Solucion_BFS" style="zoom:50%;" /></center><br>
+      <center><img id="Figura_5" src="images/Solucion_BFS.png" alt="Solucion_BFS" style="zoom:50%;" /></center><br>
     </td>
     <td style="border: hidden;">
-      <center><img src="images/Solucion_BFS.png" alt="Solucion_BFS" style="zoom:50%;" /></center><br>
+      <center><img id="Figura_6" src="images/Solucion_BFS.png" alt="Solucion_BFS" style="zoom:50%;" /></center><br>
     </td> 
     <td style="border: hidden;">
-      <center><img src="images/Solucion_BFS.png" alt="Solucion_BFS" style="zoom:50%;" /></center><br>
+      <center><img id="Figura_7" src="images/Solucion_BFS.png" alt="Solucion_BFS" style="zoom:50%;" /></center><br>
     </td> 
   </tr>
   <tr style="background-color: white">
@@ -343,17 +343,17 @@ Para comprobar los efectos de una sobreestimación más pronunciada, se ha intro
 
 En cuanto a la eficiencia, las diferencias entre heurísticas han sido más significativas. La heurística 3 (Manhattan por dos) ha resultado ser la más eficiente, tanto en tiempo como en memoria, al reducir considerablemente el número de nodos explorados. Esto se debe a que la función $f(n)$, al dar más peso a la heurística, guía la búsqueda de forma más agresiva hacia el objetivo. La heurística de Manhattan, aunque algo menos eficiente, ha ofrecido un buen equilibrio entre rendimiento y garantía de optimalidad. Por el contrario, la heurística de Chebyshev ha mostrado el peor rendimiento computacional, probablemente porque su aproximación no se ajusta bien a la geometría del entorno ni al sistema de penalizaciones utilizado en los movimientos.
 
-Para analizar si este comportamiento se mantiene en entornos modificados, se han realizado tres pruebas adicionales. En la primera se ha cambiado la posición de inicio del agente manteniendo el resto del entorno ([Figura 8](#Figura_8)), en la segunda se ha utilizado un mapa de mayor tamaño y complejidad ([Figura 9](#Figura_9)), con múltiples rutas posibles y en la tercera se modificaron los costes de las acciones (*ver la sección 6.1 del bloque de código adjunto*). En las dos primeras pruebas, todas las heurísticas condujeron a la misma solución óptima, aunque las diferencias de eficiencia se acentuaron en el segundo experimento. En el mapa de la [Figura 9](#Figura_9), la heurística de Manhattan multiplicada por dos volvió a ser la más eficiente, seguida por la heurística de Manhattan simple y, por último, la de Chebyshev, que expandió el mayor número de nodos 
+Para analizar si este comportamiento se mantiene en entornos modificados, se han realizado tres pruebas adicionales. En la primera se ha cambiado la posición de inicio del agente manteniendo el resto del entorno ([Figura 8](#Figura_8)), en la segunda se ha utilizado un mapa de mayor tamaño y complejidad ([Figura 9](#Figura_9)), con múltiples rutas posibles y en la tercera se modificaron los costes de las acciones (*ver la sección 6.1 del bloque de código adjunto*). En las dos primeras pruebas, todas las heurísticas condujeron a la misma solución óptima, aunque las diferencias de eficiencia se acentuaron en el segundo experimento. En el mapa de la [Figura_9](#Figura_9), la heurística de Manhattan multiplicada por dos volvió a ser la más eficiente, seguida por la heurística de Manhattan simple y, por último, la de Chebyshev, que expandió el mayor número de nodos 
 
  
 
 <table>
   <tr style="background-color: white">
     <td width="50%" style="border: hidden;">
-      <center><img src="images/Mapa_general_modificacion_salida.png" alt="Mapa_general_modificacion_salida" style="zoom:50%;" /></center><br>
+      <center><img id="Figura_8" src="images/Mapa_general_modificacion_salida.png" alt="Mapa_general_modificacion_salida" style="zoom:50%;" /></center><br>
     </td>
     <td width="50%" style="border: hidden;">
-      <center><img src="images/Variable_map.png" alt="Variable_map" style="zoom:50%;" /></center><br>
+      <center><img id="Figura_9" src="images/Variable_map.png" alt="Variable_map" style="zoom:50%;" /></center><br>
     </td>    
   </tr>
   <tr style="background-color: white">
@@ -371,6 +371,8 @@ Para analizar si este comportamiento se mantiene en entornos modificados, se han
 No obstante, aunque las tres heurísticas han mantenido la optimalidad en estos casos, solo las dos primeras ofrecen garantías teóricas. La heurística de Manhattan por dos no es admisible, por lo que en entornos más complejos o con penalizaciones distintas podría inducir a errores. De hecho, al modificar los costes, se ha conseguido inducir pérdida de optimalidad, ya que la heurística inflada llevó al algoritmo $\text{A}^*$ a seleccionar un camino con mayor coste. Esto confirma que su comportamiento no es robusto frente a penalizaciones más severas. En cambio, únicamente modificando paredes o posiciones no se ha logrado construir un mapa que evidencie esta pérdida, lo que sugiere que, dentro de los límites del entorno evaluado, esta heurística puede seguir funcionando correctamente aunque no ofrezca garantías formales.
 
 
+
+<img id="Figura_8" src="images/Mapa_general_modificacion_salida.png" alt="Mapa_general_modificacion_salida" style="zoom:50%;" />
 
 TABLAS AQUI
 
