@@ -233,95 +233,83 @@ En esta sección se presentarán los resultados obtenidos al comparar los algori
 
 ### 2.1. Resultados y discusión
 
-imagenes y tablas aqui:
-
-
-
-*Tabla 1. Comparativa de características generales de soluciones.*
+*Tabla 1. Comparativa de resultados de los algoritmos de búsqueda en amplitud (BFS) y búsqueda en profundidad (DFS).*
 
 <div id="Tabla_1">
   <table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse;">
     <tr style="background-color: #0098CD; color:white; text-align: center;">
+      <th>Algoritmo</th>
       <th>Solución</th>
-      <th>Interoperabilidad</th>
-      <th>Escalabilidad</th>
-      <th>Seguridad</th>
-      <th>Usabilidad</th>
+      <th>Longitud</th>
+      <th>Coste</th>
+      <th>Tam. Máx. Lista</th>
+      <th>Nodos Expandidos</th>
     </tr>
-    <tr style="background-color: #E1F7FF">
-      <td><strong>PatientIQ</strong></td>
-      <td>Alta con EHRs principales.</td>
-      <td>Diseñada para grandes volúmenes de datos.</td>
-      <td>Cumple con HIPAA.</td>
-      <td>Interfaces intuitivas. Estadística integrada.</td>
+    <!-- BFS -->
+    <tr style="background-color:white" align="center">
+      <td><strong>BFS</strong></td>
+      <td>
+        <table cellpadding="3" cellspacing="0" style="border-collapse: collapse; font-size:12px;">
+          <tr style="background-color: #BDD6EE;" align="center"><td>1</td><td>start</td><td>(4,4)</td></tr>
+          <tr align="center"><td>2</td><td>up</td><td>(4,3)</td></tr>
+          <tr align="center"><td>3</td><td>left</td><td>(3,3)</td></tr>
+          <tr align="center"><td>4</td><td>up</td><td>(3,2)</td></tr>
+          <tr align="center"><td>5</td><td>up</td><td>(3,1)</td></tr>
+          <tr style="background-color: #C5E0B3;" align="center"><td>6</td><td>left</td><td>(2,1)</td></tr>
+        </table>
+      </td>
+      <td>6</td>
+      <td>5.0</td>
+      <td>7</td>
+      <td>25</td>
     </tr>
-    <tr>
-      <td><strong>EASIPRO</strong></td>
-      <td>Específica de ciertos sistemas de historias clínicas. <br> Epic y Cerner.</td>
-      <td>Limitada por la integración de EHRs.<br> No aplicable en España.</td>
-      <td>Segura, con enfoque en privacidad de datos.</td>
-      <td>Requiere adaptación a flujos de trabajo clínicos.</td>
-    </tr>
-    <tr style="background-color: #E1F7FF">
-      <td><strong>MyChart</strong></td>
-      <td>Integración con Epic. Exportación de informes.</td>
-      <td>Depende de la infraestructura de Epic.</td>
-      <td>Altos estándares de seguridad de Epic.</td>
-      <td>Fácil acceso para pacientes. Integra todos los datos de salud.</td>
-    </tr>
-    <tr>
-      <td><strong>Naveta</strong></td>
-      <td>Plataforma externa.</td>
-      <td>Escalable a necesidades de la organización.</td>
-      <td>Estándares de seguridad de datos clínicos.</td>
-      <td>Plataforma específica de seguimiento.</td>
-    </tr>
-    <tr style="background-color: #E1F7FF">
-      <td><strong>Medidata</strong></td>
-      <td>Enfocado en investigación clínica.</td>
-      <td>Altamente escalable para ensayos globales.</td>
-      <td>Cumple regulaciones globales.</td>
-      <td>Orientado a investigadores.</td>
-    </tr>
-    <tr>
-      <td><strong>Datavant</strong></td>
-      <td>Fuerte en interoperabilidad de datos de salud.</td>
-      <td>Escalable. Colaborativa. Solo USA.</td>
-      <td>Prioriza la seguridad y privacidad de los datos.</td>
-      <td>Facilita la conexión de sistemas dispares.</td>
-    </tr>
-    <tr style="background-color: #E1F7FF">
-      <td><strong>Healthjump</strong></td>
-      <td>Conexión con cualquier EHR/PM</td>
-      <td>Escalable a múltiples sistemas y datos.</td>
-      <td>Enfocado en la seguridad de datos.</td>
-      <td>Simplifica la migración y análisis de datos. Requiere instalación en servidores del Hospitales.</td>
-    </tr>
-    <tr>
-      <td><strong>IQVIA's EMR Data Factory</strong></td>
-      <td>Amplia cobertura de datos de EHR</td>
-      <td>Adaptada para análisis complejos y grandes datos.</td>
-      <td>Altos estándares de seguridad.</td>
-      <td>Integración con sistemas IQVIA. Solo extrae datos de EHR.</td>
-    </tr>
-    <tr style="background-color: #E1F7FF">
-      <td><strong>MyTherapy for MS</strong></td>
-      <td>Desde dispositivos móviles. Permite generar informes.</td>
-      <td>Adaptada para manejo de esclerosis múltiple.</td>
-      <td>Protección de datos personales.</td>
-      <td>Fácil de usar para seguimiento de pacientes.</td>
-    </tr>
-    <tr>
-      <td><strong>Cleo</strong></td>
-      <td>Dispositivos móviles. Permite compartir información.</td>
-      <td>Adaptada para manejo de esclerosis múltiple.</td>
-      <td>Seguridad de datos del paciente.</td>
-      <td>Interfaz amigable para usuarios.</td>
+    <!-- DFS -->
+    <tr style="background-color:white" align="center">
+      <td><strong>DFS</strong></td>
+      <td>
+        <table cellpadding="3" cellspacing="0" style="border-collapse: collapse; font-size:12px;">
+          <tr style="background-color: #BDD6EE;" align="center"><td>1</td><td>start</td><td>(4,4)</td></tr>
+          <tr align="center"><td>2</td><td>down</td><td>(4,5)</td></tr>
+          <tr align="center"><td>3</td><td>right</td><td>(5,5)</td></tr>
+          <tr align="center"><td>4</td><td>right</td><td>(6,5)</td></tr>
+          <tr align="center"><td>5</td><td>up</td><td>(6,4)</td></tr>
+          <tr align="center"><td>6</td><td>up</td><td>(6,3)</td></tr>
+          <tr align="center"><td>7</td><td>up</td><td>(6,2)</td></tr>
+          <tr align="center"><td>8</td><td>up</td><td>(6,1)</td></tr>
+          <tr align="center"><td>9</td><td>left</td><td>(5,1)</td></tr>
+          <tr align="center"><td>10</td><td>left</td><td>(4,1)</td></tr>
+          <tr align="center"><td>11</td><td>left</td><td>(3,1)</td></tr>
+          <tr style="background-color: #C5E0B3;" align="center"><td>12</td><td>left</td><td>(2,1)</td></tr>
+        </table>
+      </td>
+      <td>12</td>
+      <td>11.0</td>
+      <td>10</td>
+      <td>22</td>
     </tr>
   </table>
 </div>
 
 
+
+<table>
+  <tr style="background-color: white">
+    <td style="border: hidden;">
+      <center><img src="images/Solucion_BFS.png" alt="Solucion_BFS" style="zoom:50%;" /></center><br>
+    </td>
+    <td style="border: hidden;">
+      <center><img src="images/Solucion_BFS.png" alt="Solucion_BFS" style="zoom:50%;" /></center><br>
+    </td>    
+  </tr>
+  <tr style="background-color: white">
+    <td style="border: hidden;">
+      <center><i>Figura 1 - Solución encontrada por BFS</i></center>
+    </td>
+    <td style="border: hidden;">
+      <center><i>Figura 2 - Solución encontrada por DFS</i></center>
+    </td>
+  </tr>
+</table>
 
 
 
@@ -347,7 +335,81 @@ En esta sección se analizarán las diferencias de comportamiento entre los algo
 
 ### 3.1. Resultados y discusión
 
-TABLAS E IMAGENES AQUI
+*Tabla 2. Comparativa de los algoritmos de búsqueda en amplitud (BFS), búsqueda de coste uniforme (UCS) y A\**
+
+<div id="Tabla_2">
+  <table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse;">
+    <tr style="background-color: #0098CD; color:white; text-align: center;">
+      <th>Algoritmo</th>
+      <th>Solución</th>
+      <th>Longitud</th>
+      <th>Coste</th>
+      <th>Tam. Máx. Lista</th>
+      <th>Nodos Expandidos</th>
+    </tr>
+    <!-- BFS -->
+    <tr style="background-color:white" align="center">
+      <td><strong>BFS</strong></td>
+      <td rowspan="3">
+        <table cellpadding="3" cellspacing="0" style="border-collapse: collapse; font-size:12px;">
+          <tr style="background-color: #BDD6EE;" align="center"><td>1</td><td>start</td><td>(4,4)</td></tr>
+          <tr align="center"><td>2</td><td>up</td><td>(4,3)</td></tr>
+          <tr align="center"><td>3</td><td>left</td><td>(3,3)</td></tr>
+          <tr align="center"><td>4</td><td>up</td><td>(3,2)</td></tr>
+          <tr align="center"><td>5</td><td>up</td><td>(3,1)</td></tr>
+          <tr style="background-color: #C5E0B3;" align="center"><td>6</td><td>left</td><td>(2,1)</td></tr>
+        </table>
+      </td>
+      <td>6</td>
+      <td>9.0</td>
+      <td>7</td>
+      <td>25</td>
+    </tr>
+    <!-- UCS / Dijkstra -->
+    <tr style="background-color:white" align="center">
+      <td><strong>UCS (Dijkstra)</strong></td>
+      <td>6</td>
+      <td>9.0</td>
+      <td>7</td>
+      <td>23</td>
+    </tr>
+    <!-- A* -->
+    <tr style="background-color:white" align="center">
+      <td><strong>A*</strong></td>
+      <td>6</td>
+      <td>9.0</td>
+      <td>9</td>
+      <td>11</td>
+    </tr>
+  </table>
+</div>
+
+
+
+<table>
+  <tr style="background-color: white">
+    <td style="border: hidden;">
+      <center><img src="images/Solucion_BFS.png" alt="Solucion_BFS" style="zoom:50%;" /></center><br>
+    </td>
+    <td style="border: hidden;">
+      <center><img src="images/Solucion_BFS.png" alt="Solucion_BFS" style="zoom:50%;" /></center><br>
+    </td> 
+    <td style="border: hidden;">
+      <center><img src="images/Solucion_BFS.png" alt="Solucion_BFS" style="zoom:50%;" /></center><br>
+    </td> 
+  </tr>
+  <tr style="background-color: white">
+    <td style="border: hidden;">
+      <center><i>Figura 1 - Solución encontrada por BFS</i></center>
+    </td>
+    <td style="border: hidden;">
+      <center><i>Figura 3 - Solución encontrada por UCS</i></center>
+    </td>
+    <td style="border: hidden;">
+      <center><i>Figura 4 - Solución encontrada por A*</i></center>
+    </td>
+  </tr>
+</table>
 
 
 
@@ -388,9 +450,94 @@ Al igual que en la sección anterior, en esta sección se analiza el comportamie
 
 ### 4.1. Resultados y discusión
 
-TABLAS E IMAGENES AQUI
+*Tabla 3. Comparativa de los algoritmos de búsqueda de coste uniforme (UCF) y A* con diferentes heurísticas*
+
+<div id="Tabla_Algoritmos_3">
+  <table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse;">
+    <tr style="background-color: #0098CD; color:white; text-align: center;">
+      <th>Algoritmo</th>
+      <th>Solución</th>
+      <th>Longitud</th>
+      <th>Coste</th>
+      <th>Tam. Máx. Lista</th>
+      <th>Nodos Expandidos</th>
+    </tr>
+    <!-- UCS / DIJKSTRA -->
+    <tr style="background-color:white" align="center">
+      <td><strong>UCS</strong><br>(Dijkstra)</td>
+      <!-- SOLUCIÓN COMPARTIDA -->
+      <td rowspan="4">
+        <table cellpadding="3" cellspacing="0" style="border-collapse: collapse; font-size:12px;">
+          <tr style="background-color: #BDD6EE;" align="center"><td>1</td><td>start</td><td>(4,4)</td></tr>
+          <tr align="center"><td>2</td><td>up</td><td>(4,3)</td></tr>
+          <tr align="center"><td>3</td><td>left</td><td>(3,3)</td></tr>
+          <tr align="center"><td>4</td><td>up</td><td>(3,2)</td></tr>
+          <tr align="center"><td>5</td><td>up</td><td>(3,1)</td></tr>
+          <tr style="background-color: #C5E0B3;" align="center"><td>6</td><td>left</td><td>(2,1)</td></tr>
+        </table>
+      </td>
+      <td>6</td>
+      <td>9.0</td>
+      <td>7</td>
+      <td>23</td>
+    </tr>
+    <!-- A* MANHATTAN -->
+    <tr style="background-color:white" align="center">
+      <td><strong>A*</strong><br>Distancia Manhattan</td>
+      <td>6</td>
+      <td>9.0</td>
+      <td>9</td>
+      <td>11</td>
+    </tr>
+    <!-- A* CHEBYSHEV -->
+    <tr style="background-color:white" align="center">
+      <td><strong>A*</strong><br>Distancia Chebyshev</td>
+      <td>6</td>
+      <td>9.0</td>
+      <td>9</td>
+      <td>18</td>
+    </tr>
+    <!-- A* MANHATTAN x2 -->
+    <tr style="background-color:white" align="center">
+      <td><strong>A*</strong><br>Distancia Manhattan (x2)</td>
+      <td>6</td>
+      <td>9.0</td>
+      <td>5</td>
+      <td>6</td>
+    </tr>
+  </table>
+</div>
 
 
+
+<table>
+  <tr style="background-color: white">
+    <td style="border: hidden;">
+      <center><img src="images/Solucion_BFS.png" alt="Solucion_BFS" style="zoom:50%;" /></center><br>
+    </td>
+    <td style="border: hidden;">
+      <center><img src="images/Solucion_BFS.png" alt="Solucion_BFS" style="zoom:50%;" /></center><br>
+    </td> 
+    <td style="border: hidden;">
+      <center><img src="images/Solucion_BFS.png" alt="Solucion_BFS" style="zoom:50%;" /></center><br>
+    </td> 
+  </tr>
+  <tr style="background-color: white">
+    <td style="border: hidden;">
+      <center><i>Figura 5 - Solución encontrada por A*<br>(Heurística - distancia Manhattan)</i></center>
+    </td>
+    <td style="border: hidden;">
+      <center><i>Figura 6 - Solución encontrada por A*<br>(Heurística - distancia Chebyshev)</i></center>
+    </td>
+    <td style="border: hidden;">
+      <center><i>Figura 7 - Solución encontrada por A*<br>(Heurística - distancia Manhattan x 2)</i></center>
+    </td>
+  </tr>
+</table>
+
+
+
+#  enlaces a imagenes, ver en word
 
 Los resultados muestran que tanto UCS como $\text{A}^*$ han encontrado caminos con un coste total de 9.0, lo que confirma que ambos algoritmos han proporcionado soluciones óptimas en este entorno. En el caso de UCS, este comportamiento era esperable, ya que su diseño garantiza la optimalidad siempre que los costes sean positivos. El algoritmo expande los nodos en orden creciente de coste acumulado, lo que le permite identificar el camino de menor coste siempre que no existan ciclos negativos.
 
@@ -404,7 +551,24 @@ Para analizar si este comportamiento se mantiene en entornos modificados, se han
 
  
 
-IMAGENES AQUI
+<table>
+  <tr style="background-color: white">
+    <td width="50%" style="border: hidden;">
+      <center><img src="images/Mapa_general_modificacion_salida.png" alt="Mapa_general_modificacion_salida" style="zoom:50%;" /></center><br>
+    </td>
+    <td width="50%" style="border: hidden;">
+      <center><img src="images/Variable_map.png" alt="Variable_map" style="zoom:50%;" /></center><br>
+    </td>    
+  </tr>
+  <tr style="background-color: white">
+    <td style="border: hidden;">
+      <center><i>Figura 8 - Mapa original modificando la posición de salida</i></center>
+    </td>
+    <td style="border: hidden;">
+      <center><i>Figura 9 - Nueva variación del mapa</i></center>
+    </td>
+  </tr>
+</table>
 
 
 
