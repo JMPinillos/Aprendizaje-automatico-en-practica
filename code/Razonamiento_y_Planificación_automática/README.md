@@ -10,23 +10,23 @@ Estos trabajos demuestran cómo la combinación de algoritmos de búsqueda y mod
 
 ## Documentación
 
-### Algoritmos de búsqueda en espacios de estados
+### Búsqueda de rutas en empresa de paquetería
 
 Este trabajo analiza el comportamiento de diferentes estrategias de búsqueda utilizadas en inteligencia artificial para resolver problemas de planificación. Se estudian técnicas de exploración del espacio de estados y su impacto en la eficiencia de la búsqueda, prestando especial atención a la relación entre heurísticas, coste computacional y calidad de las soluciones obtenidas.
 
 El desarrollo incluye la formalización de problemas, el análisis del funcionamiento de los algoritmos y la discusión de sus propiedades teóricas, como la completitud, la optimalidad y la complejidad temporal y espacial.
 
-🔗Búsqueda_en_espacios_de_estados.md
+🔗Búsqueda_de_rutas_en_empresa_de_paquetería.md
 
 
 
-### Modelado de dominios de planificación con PDDL
+### Planificación para un rover marciano
 
 Este trabajo se centra en la representación formal de problemas de planificación mediante PDDL, el lenguaje estándar utilizado en sistemas de planificación automática. A partir del dominio clásico de exploración con rovers, se desarrolla una extensión del modelo que introduce nuevos elementos estructurales, como tipos de tracción, remolques de transporte y restricciones sobre los caminos transitables.
 
 El ejercicio aborda tanto la definición del dominio como la construcción de problemas específicos, describiendo predicados, acciones y objetivos de planificación. La ampliación del dominio permite analizar cómo evoluciona la complejidad del problema cuando se introducen nuevas capacidades de cooperación entre agentes y restricciones adicionales en el entorno.
 
-🔗Modelado_de_planificación_con_PDDL.md
+🔗Planificación_para_un_rover_marciano.md
 
 
 
