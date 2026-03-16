@@ -1,16 +1,13 @@
 
 
-<p align="center" style="font-family: 'Calibri'; font-size:30px; color:#0098CD">Búsqueda de rutas en empresa de paquetería</p>
-
-
+<p align="center" style="font-family: 'Calibri'; font-size:50px; color:#0098CD">Búsqueda de rutas en empresa de paquetería</p>
 
 <p style="font-family: 'Calibri'; font-size:20px; margin: 0 auto;" align="center"><strong>CÓDIGO</strong></p>
-
-<div align="center">
-  	<a href="https://github.com/JMPinillos/TFE_MS-Insight/tree/main/Code/MS-Insight_ETL" target="_blank"><img src="https://img.shields.io/badge/ETL-V2.1.0-FF7F00?logo=AWS%20Lambda&logoColor=white"></a>
-  	<a href="https://github.com/JMPinillos/TFE_MS-Insight/tree/main/Code/MS-Insight_Backend" target="_blank"><img src="https://img.shields.io/badge/Backend-V3.1.2-512BD5?logo=.NET&logoColor=white"></a>
-  	<a href="https://github.com/JMPinillos/TFE_MS-Insight/tree/main/Code/MS-Insight_Frontend" target="_blank"><img src="https://img.shields.io/badge/Frontend-V1.3.2-09D9FD?logo=React&logoColor=white"></a>
+<div align="center">  	
+  	<a href="https://github.com/JMPinillos/Aprendizaje-automatico-en-practica/blob/main/code/Razonamiento_y_Planificaci%C3%B3n_autom%C3%A1tica/1-B%C3%BAsqueda_de_rutas_en_empresa_de_paqueter%C3%ADa/code/B%C3%BAsqueda_de_rutas_en_empresa_de_paqueter%C3%ADa.ipynb" target="_blank"><img src="https://img.shields.io/badge/Python-306998?logo=python&logoColor=FFD43B"></a>
 </div>
+
+
 
 
 ## 1. Introducción 

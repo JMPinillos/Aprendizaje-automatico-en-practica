@@ -6,7 +6,7 @@ Los trabajos desarrollados exploran dos aspectos complementarios del campo. Por 
 
 Estos trabajos demuestran cómo la combinación de algoritmos de búsqueda y modelos formales de planificación permite representar problemas complejos, estructurar el conocimiento del entorno y generar automáticamente secuencias de acciones válidas para alcanzar los objetivos definidos.
 
-METER ENLACES A LOS ARCHI
+
 
 ## Documentación
 
@@ -17,8 +17,6 @@ Este trabajo analiza el comportamiento de diferentes estrategias de búsqueda ut
 El desarrollo incluye la formalización de problemas, el análisis del funcionamiento de los algoritmos y la discusión de sus propiedades teóricas, como la completitud, la optimalidad y la complejidad temporal y espacial.
 
 🔗[Búsqueda_de_rutas_en_empresa_de_paquetería.md](1-Búsqueda_de_rutas_en_empresa_de_paquetería/Búsqueda_de_rutas_en_empresa_de_paquetería.md)
-
-
 
 
 
