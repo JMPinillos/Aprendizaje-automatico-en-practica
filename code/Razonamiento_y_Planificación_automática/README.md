@@ -1,6 +1,6 @@
 # Razonamiento y planificación automática
 
-En esta sección se recopilan prácticas centradas en técnicas de razonamiento automático y planificación en inteligencia artificial. Estas actividades abordan el diseño de agentes capaces de tomar decisiones en entornos estructurados mediante algoritmos de búsqueda y lenguajes formales de representación de problemas.
+En esta sección se recopilan prácticas centradas en técnicas de razonamiento y planificación automática en inteligencia artificial. Estas actividades abordan el diseño de agentes capaces de tomar decisiones en entornos estructurados mediante algoritmos de búsqueda y lenguajes formales de representación de problemas.
 
 Los trabajos desarrollados exploran dos aspectos complementarios del campo. Por un lado, el estudio de algoritmos de búsqueda aplicados a la resolución de problemas en espacios de estados y el análisis de su comportamiento en términos de eficiencia y calidad de las soluciones. Por otro, el modelado formal de dominios de planificación mediante PDDL (*Planning Domain Definition Language*), el lenguaje estándar utilizado para describir estados, acciones y objetivos en sistemas de planificación automática.
 
